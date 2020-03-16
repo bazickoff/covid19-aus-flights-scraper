@@ -1,6 +1,12 @@
-# covid19-aus-flights-tracker
+# COVID-19 Flights Tracker
 
-Flights tracker for Covid19
+This project aims at automating getting data from various Australian State Government Websites to report on flights which a confirmed case of COVID-19 has been on.
+
+The latest dataset for each state is available at:
+
+- [New South Wales](./flight_data/nsw/latest.csv)
+- [South Australia](./flight_data/sa/latest.csv)
+- [Western Australia](./flight_data/wa/latest.csv)
 
 # Development
 

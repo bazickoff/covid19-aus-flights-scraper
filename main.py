@@ -67,11 +67,20 @@ if __name__ == "__main__":
     with open(f'./flight_data/nsw/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(nsw_flight_data)
+    with open(f'./flight_data/nsw/latest.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(nsw_flight_data)
 
     with open(f'./flight_data/sa/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(sa_flight_data)
+    with open(f'./flight_data/sa/latest.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(nsw_flight_data)
 
     with open(f'./flight_data/wa/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(wa_flight_data)
+    with open(f'./flight_data/wa/latest.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(nsw_flight_data)
