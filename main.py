@@ -55,7 +55,7 @@ class Scraper:
 
         for row in nsw_flight_data[1:]:
             flight_number = row[0]
-            arrival_date = row[4]
+            arrival_date = datetime.strptime(row[4], '%d %B %Y')
             close_contact_rows = row[5]
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW'}
@@ -63,7 +63,7 @@ class Scraper:
 
         for row in sa_flight_data[1:]:
             flight_number = row[1].split(' ')[0]
-            arrival_date = row[3]
+            arrival_date = datetime.strptime(row[3], '%d %B %Y')
             close_contact_rows = ''
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'SA'}
@@ -72,6 +72,7 @@ class Scraper:
         for row in wa_flight_data[1:]:
             flight_number = row[0]
             arrival_date = row[3]
+            arrival_date = datetime.strptime(row[3], '%d/%m/%Y')
             close_contact_rows = row[4]
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'WA'}
@@ -124,13 +125,16 @@ if __name__ == "__main__":
         writer = csv.writer(file)
         writer.writerows(wa_flight_data)
 
+    header = ['reporting_state', 'arrival_date',
+              'flight_number', 'close_contact_rows']
+
     with open(f'./flight_data/all/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
-            file, ['flight_number', 'arrival_date', 'close_contact_rows', 'reporting_state'])
+            file, header)
         writer.writeheader()
         writer.writerows(combined_flight_data)
     with open(f'./flight_data/all/latest.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
-            file, ['flight_number', 'arrival_date', 'close_contact_rows', 'reporting_state'])
+            file, header)
         writer.writeheader()
         writer.writerows(combined_flight_data)
