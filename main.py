@@ -63,7 +63,7 @@ if __name__ == "__main__":
     if not os.path.exists('./flight_data/wa'):
         os.makedirs('./flight_data/wa')
 
-    today = f"{current_timestamp.year}{current_timestamp.month}{current_timestamp.day}"
+    today = f"{current_timestamp.year}-{current_timestamp.month}-{current_timestamp.day}"
     with open(f'./flight_data/nsw/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(nsw_flight_data)

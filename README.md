@@ -24,6 +24,14 @@ or if you are using pip3 as an alias
 pip3 install -r requirements.txt
 ```
 
+## Running the Script
+
+After install the dependencies, simply run:
+
+```bash
+python3 main.py
+```
+
 # LICENSE
 
 This project is licensed under MIT. See [LICENSE](./LICENSE) for more details
