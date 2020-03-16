@@ -127,8 +127,10 @@ if __name__ == "__main__":
     with open(f'./flight_data/all/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
             file, ['flight_number', 'arrival_date', 'close_contact_rows', 'reporting_state'])
+        writer.writeheader()
         writer.writerows(combined_flight_data)
     with open(f'./flight_data/all/latest.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
             file, ['flight_number', 'arrival_date', 'close_contact_rows', 'reporting_state'])
+        writer.writeheader()
         writer.writerows(combined_flight_data)

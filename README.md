@@ -8,6 +8,13 @@ The latest dataset for each state is available at:
 - [South Australia](./flight_data/sa/latest.csv)
 - [Western Australia](./flight_data/wa/latest.csv)
 
+- [All (Compiled)](./flight_data/all/latest.csv)
+
+This dataset automatically updates every day at 0:00 UTC, which is equivalent to:
+
+- 10:00am [Australian Eastern Standard Time (AEST)](https://www.timeanddate.com/time/zones/aest)
+- 11:00am [Australian Eastern Daylight Time/Daylight Savings Time (AEST)](https://www.timeanddate.com/time/zones/aedt)
+
 # Development
 
 ## Installing Dependencies
