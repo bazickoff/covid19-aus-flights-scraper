@@ -58,7 +58,7 @@ class Scraper:
             arrival_date = row[4]
             close_contact_rows = row[5]
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows}
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW'}
             data.append(flight)
 
         for row in sa_flight_data[1:]:
@@ -66,7 +66,7 @@ class Scraper:
             arrival_date = row[3]
             close_contact_rows = ''
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows}
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'SA'}
             data.append(flight)
 
         for row in wa_flight_data[1:]:
@@ -74,7 +74,7 @@ class Scraper:
             arrival_date = row[3]
             close_contact_rows = row[4]
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows}
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'WA'}
             data.append(flight)
 
         return data
@@ -126,9 +126,9 @@ if __name__ == "__main__":
 
     with open(f'./flight_data/all/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
-            file, ['flight_number', 'arrival_date', 'close_contact_rows'])
+            file, ['flight_number', 'arrival_date', 'close_contact_rows', 'reporting_state'])
         writer.writerows(combined_flight_data)
     with open(f'./flight_data/all/latest.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
-            file, ['flight_number', 'arrival_date', 'close_contact_rows'])
+            file, ['flight_number', 'arrival_date', 'close_contact_rows', 'reporting_state'])
         writer.writerows(combined_flight_data)
