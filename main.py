@@ -47,35 +47,38 @@ class Scraper:
         return self.get_data(table)
 
     def get_global_data(self):
-        nsw_flight_data = scraper.get_nsw_flight_data()
-        sa_flight_data = scraper.get_sa_flight_data()
-        wa_flight_data = scraper.get_wa_flight_data()
+        nsw_flight_data = self.get_nsw_flight_data()
+        sa_flight_data = self.get_sa_flight_data()
+        wa_flight_data = self.get_wa_flight_data()
 
         data = []
 
         for row in nsw_flight_data[1:]:
             flight_number = row[0]
             arrival_date = datetime.strptime(row[4], '%d %B %Y')
+            symptoms_onset_date = arrival_date + datetime.timedelta(days=14)
             close_contact_rows = row[5]
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW'}
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date}
             data.append(flight)
 
         for row in sa_flight_data[1:]:
             flight_number = row[1].split(' ')[0]
             arrival_date = datetime.strptime(row[3], '%d %B %Y')
+            symptoms_onset_date = arrival_date + datetime.timedelta(days=14)
             close_contact_rows = ''
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'SA'}
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'SA', 'symptoms_onset_date': symptoms_onset_date}
             data.append(flight)
 
         for row in wa_flight_data[1:]:
             flight_number = row[0]
             arrival_date = row[3]
             arrival_date = datetime.strptime(row[3], '%d/%m/%Y')
+            symptoms_onset_date = arrival_date + datetime.timedelta(days=14)
             close_contact_rows = row[4]
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'WA'}
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'WA', 'symptoms_onset_date': symptoms_onset_date}
             data.append(flight)
 
         return data
@@ -125,7 +128,7 @@ if __name__ == "__main__":
         writer = csv.writer(file)
         writer.writerows(wa_flight_data)
 
-    header = ['reporting_state', 'arrival_date',
+    header = ['reporting_state', 'arrival_date', 'symptoms_onset_date',
               'flight_number', 'close_contact_rows']
 
     with open(f'./flight_data/all/flights_{today}.csv', 'w', newline='') as file:
@@ -133,6 +136,7 @@ if __name__ == "__main__":
             file, header)
         writer.writeheader()
         writer.writerows(combined_flight_data)
+
     with open(f'./flight_data/all/latest.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
             file, header)
