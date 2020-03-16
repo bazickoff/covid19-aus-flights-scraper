@@ -46,12 +46,48 @@ class Scraper:
         table = content.find('table')
         return self.get_data(table)
 
+    def get_global_data(self):
+        nsw_flight_data = scraper.get_nsw_flight_data()
+        sa_flight_data = scraper.get_sa_flight_data()
+        wa_flight_data = scraper.get_wa_flight_data()
+
+        data = []
+
+        for row in nsw_flight_data[1:]:
+            flight_number = row[0]
+            arrival_date = row[4]
+            close_contact_rows = row[5]
+            flight = {flight_number: flight_number, arrival_date: arrival_date,
+                      close_contact_rows: close_contact_rows}
+            data.append(flight)
+
+        for row in sa_flight_data[1:]:
+            flight_number = row[1].split(' ')[0]
+            arrival_date = row[3]
+            close_contact_rows = ''
+            flight = {flight_number: flight_number, arrival_date: arrival_date,
+                      close_contact_rows: close_contact_rows}
+            data.append(flight)
+
+        for row in wa_flight_data[1:]:
+            flight_number = row[0]
+            arrival_date = row[3]
+            close_contact_rows = row[4]
+            flight = {flight_number: flight_number, arrival_date: arrival_date,
+                      close_contact_rows: close_contact_rows}
+            data.append(flight)
+
+        return data
+
 
 if __name__ == "__main__":
     scraper = Scraper()
     nsw_flight_data = scraper.get_nsw_flight_data()
     sa_flight_data = scraper.get_sa_flight_data()
     wa_flight_data = scraper.get_wa_flight_data()
+
+    combined_flight_data = scraper.get_global_data()
+
     current_timestamp = datetime.now()
 
     if not os.path.exists('./flight_data'):
@@ -62,6 +98,9 @@ if __name__ == "__main__":
         os.makedirs('./flight_data/sa')
     if not os.path.exists('./flight_data/wa'):
         os.makedirs('./flight_data/wa')
+
+    if not os.path.exists('./flight_data/all'):
+        os.makedirs('./flight_data/all')
 
     today = f"{current_timestamp.year}-{current_timestamp.month}-{current_timestamp.day}"
     with open(f'./flight_data/nsw/flights_{today}.csv', 'w', newline='') as file:
@@ -76,11 +115,18 @@ if __name__ == "__main__":
         writer.writerows(sa_flight_data)
     with open(f'./flight_data/sa/latest.csv', 'w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerows(nsw_flight_data)
+        writer.writerows(sa_flight_data)
 
     with open(f'./flight_data/wa/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(wa_flight_data)
     with open(f'./flight_data/wa/latest.csv', 'w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerows(nsw_flight_data)
+        writer.writerows(wa_flight_data)
+
+    with open(f'./flight_data/all/flights_{today}.csv', 'w', newline='') as file:
+        writer = csv.DictWriter(file, ['flight_number', 'arrival_date', 'close_contact_rows'])
+        writer.writerows(combined_flight_data)
+    with open(f'./flight_data/all/latest.csv', 'w', newline='') as file:
+        writer = csv.DictWriter(file, ['flight_number', 'arrival_date', 'close_contact_rows'])
+        writer.writerows(combined_flight_data)
