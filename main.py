@@ -57,24 +57,24 @@ class Scraper:
             flight_number = row[0]
             arrival_date = row[4]
             close_contact_rows = row[5]
-            flight = {flight_number: flight_number, arrival_date: arrival_date,
-                      close_contact_rows: close_contact_rows}
+            flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
+                      'close_contact_rows': close_contact_rows}
             data.append(flight)
 
         for row in sa_flight_data[1:]:
             flight_number = row[1].split(' ')[0]
             arrival_date = row[3]
             close_contact_rows = ''
-            flight = {flight_number: flight_number, arrival_date: arrival_date,
-                      close_contact_rows: close_contact_rows}
+            flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
+                      'close_contact_rows': close_contact_rows}
             data.append(flight)
 
         for row in wa_flight_data[1:]:
             flight_number = row[0]
             arrival_date = row[3]
             close_contact_rows = row[4]
-            flight = {flight_number: flight_number, arrival_date: arrival_date,
-                      close_contact_rows: close_contact_rows}
+            flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
+                      'close_contact_rows': close_contact_rows}
             data.append(flight)
 
         return data
@@ -125,8 +125,10 @@ if __name__ == "__main__":
         writer.writerows(wa_flight_data)
 
     with open(f'./flight_data/all/flights_{today}.csv', 'w', newline='') as file:
-        writer = csv.DictWriter(file, ['flight_number', 'arrival_date', 'close_contact_rows'])
+        writer = csv.DictWriter(
+            file, ['flight_number', 'arrival_date', 'close_contact_rows'])
         writer.writerows(combined_flight_data)
     with open(f'./flight_data/all/latest.csv', 'w', newline='') as file:
-        writer = csv.DictWriter(file, ['flight_number', 'arrival_date', 'close_contact_rows'])
+        writer = csv.DictWriter(
+            file, ['flight_number', 'arrival_date', 'close_contact_rows'])
         writer.writerows(combined_flight_data)
