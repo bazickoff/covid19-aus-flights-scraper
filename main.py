@@ -87,10 +87,6 @@ class Scraper:
 
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date}
-
-            flight_info = self.get_flight_info(flight_number)
-            if(flight_info):
-                flight['flight_path'] = f'{flight_info["departure_airport"]} to {flight_info["arrival_airport"]}'
             data.append(flight)
 
         for row in sa_flight_data[1:]:
@@ -101,9 +97,6 @@ class Scraper:
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'SA', 'symptoms_onset_date': symptoms_onset_date}
 
-            flight_info = self.get_flight_info(flight_number)
-            if(flight_info):
-                flight['flight_path'] = f'{flight_info["departure_airport"]} to {flight_info["arrival_airport"]}'
             data.append(flight)
 
         for row in wa_flight_data[1:]:
@@ -115,9 +108,6 @@ class Scraper:
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'WA', 'symptoms_onset_date': symptoms_onset_date}
 
-            flight_info = self.get_flight_info(flight_number)
-            if(flight_info):
-                flight['flight_path'] = f'{flight_info["departure_airport"]} to {flight_info["arrival_airport"]}'
             data.append(flight)
 
         return data
