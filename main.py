@@ -120,8 +120,6 @@ if __name__ == "__main__":
     wa_flight_data = scraper.get_wa_flight_data()
 
     combined_flight_data = scraper.get_global_data()
-    combined_flight_data = sorted(
-        combined_flight_data, lambda i: i['arrival_date'])
 
     current_timestamp = datetime.now()
 
@@ -160,7 +158,7 @@ if __name__ == "__main__":
         writer.writerows(wa_flight_data)
 
     header = ['reporting_state', 'arrival_date', 'symptoms_onset_date',
-              'flight_path', 'flight_number', 'close_contact_rows']
+              'flight_number', 'close_contact_rows']
 
     with open(f'./flight_data/all/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
