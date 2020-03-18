@@ -10,7 +10,7 @@ The latest dataset for each state is available at:
 
 - [All (Compiled)](./flight_data/all/latest.csv)
 
-This dataset automatically updates every day at 0:00 UTC, which is equivalent to:
+This dataset automatically updates every second hour (0:00, 2:00, 4:00, 8:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00, 22:00), which is equivalent to:
 
 - 10:00am [Australian Eastern Standard Time (AEST)](https://www.timeanddate.com/time/zones/aest)
 - 11:00am [Australian Eastern Daylight Time/Daylight Savings Time (AEST)](https://www.timeanddate.com/time/zones/aedt)
