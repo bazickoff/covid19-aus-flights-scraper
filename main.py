@@ -49,28 +49,6 @@ class Scraper:
         table = content.find('table')
         return self.get_data(table)
 
-    def get_flight_info(self, flight_code):
-        assert flight_code
-        f = re.search(r'(^[\d|A-Z]{2})(\d{1,4})', flight_code)
-
-        target_url = f'https://www.flightstats.com/v2/api-next/flight-tracker/other-days/{f.group(1)}/{f.group(2)}'
-        res = requests.get(target_url)
-        if(res.status_code == 200):
-            payload = res.json()
-            data = payload['data']
-            index = 0
-            while index < len(data):
-                if(len(data[index]['flights']) > 0):
-                    current_flight = data[index]['flights'][0]
-
-                    depature_airport = current_flight['departureAirport']
-                    arrival_airport = current_flight['arrivalAirport']
-
-                    return {'departure_airport': depature_airport['name'], 'arrival_airport': arrival_airport['name']}
-                    index += 1
-
-        return None
-
     def get_global_data(self):
         nsw_flight_data = self.get_nsw_flight_data()
         sa_flight_data = self.get_sa_flight_data()
@@ -85,8 +63,11 @@ class Scraper:
             symptoms_onset_date = arrival_date + timedelta(days=14)
             close_contact_rows = row[5]
 
-            flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date}
+            airline = row[1]
+            [origin, destination] = row[2].split('/')
+
+            flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %y')}
             data.append(flight)
 
         for row in sa_flight_data[1:]:
@@ -97,13 +78,21 @@ class Scraper:
             month = date_str[1]
             year = '2020'  # hard-coded
 
+            airline = row[1]
+
+            flight_path = row[2]
+            if '–' in flight_path:
+                [origin, destination] = flight_path.split(' – ')
+            else:
+                [origin, destination] = flight_path.split(' - ')
+
             final_date_str = f'{day.zfill(2)} {month.zfill(2)} {year}'
 
             arrival_date = datetime.strptime(final_date_str, '%d %m %Y')
             symptoms_onset_date = arrival_date + timedelta(days=14)
             close_contact_rows = ''
-            flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'SA', 'symptoms_onset_date': symptoms_onset_date}
+            flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'SA', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %y')}
 
             data.append(flight)
 
@@ -111,12 +100,22 @@ class Scraper:
             flight_number = row[0]
             arrival_date = row[3]
             arrival_date = datetime.strptime(row[3], '%d/%m/%Y')
+
+            airline = row[1]
+            [origin, destination] = row[2].split(' to ')
+
             symptoms_onset_date = arrival_date + timedelta(days=14)
             close_contact_rows = row[4]
-            flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'WA', 'symptoms_onset_date': symptoms_onset_date}
+            flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'WA', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %y')}
 
             data.append(flight)
+
+        data = sorted(data, key=lambda x: x['arrival_date'], reverse=True)
+
+        for flight in data:
+            flight['arrival_date'] = flight['arrival_date'].strftime(
+                '%a %d %B %y')
 
         return data
 
@@ -165,8 +164,8 @@ if __name__ == "__main__":
         writer = csv.writer(file)
         writer.writerows(wa_flight_data)
 
-    header = ['reporting_state', 'arrival_date', 'symptoms_onset_date',
-              'flight_number', 'close_contact_rows']
+    header = ['airline', 'flight_number',  'origin', 'destination', 'arrival_date', 'symptoms_onset_date',
+              'close_contact_rows', 'reporting_state']
 
     with open(f'./flight_data/all/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.DictWriter(
