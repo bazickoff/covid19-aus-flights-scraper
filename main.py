@@ -83,8 +83,10 @@ class Scraper:
             flight_path = row[2]
             if '–' in flight_path:
                 [origin, destination] = flight_path.split(' – ')
-            else:
+            elif '-' in flight_path:
                 [origin, destination] = flight_path.split(' - ')
+            else:
+                [origin, destination] = ['', '']
 
             final_date_str = f'{day.zfill(2)} {month.zfill(2)} {year}'
 
