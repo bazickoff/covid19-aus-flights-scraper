@@ -90,8 +90,16 @@ class Scraper:
             data.append(flight)
 
         for row in sa_flight_data[1:]:
-            flight_number = row[1].split(' ')[0]
-            arrival_date = datetime.strptime(row[3], '%d %B %Y')
+            flight_number = row[0]
+
+            date_str = row[3].split('/')
+            day = date_str[0]
+            month = date_str[1]
+            year = '2020'  # hard-coded
+
+            final_date_str = f'{day.zfill(2)} {month.zfill(2)} {year}'
+
+            arrival_date = datetime.strptime(final_date_str, '%d %m %Y')
             symptoms_onset_date = arrival_date + timedelta(days=14)
             close_contact_rows = ''
             flight = {'flight_number': flight_number, 'arrival_date': arrival_date,
