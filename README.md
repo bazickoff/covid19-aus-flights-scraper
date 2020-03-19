@@ -10,10 +10,18 @@ The latest dataset for each state is available at:
 
 - [All (Compiled)](./flight_data/all/latest.csv)
 
-This dataset automatically updates every second hour (0:00, 2:00, 4:00, 8:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00, 22:00), which is equivalent to:
+This dataset automatically updates every second hour in UTC (0:00, 2:00, 4:00, 8:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00, 22:00), which is equivalent to:
 
-- 10:00am [Australian Eastern Standard Time (AEST)](https://www.timeanddate.com/time/zones/aest)
-- 11:00am [Australian Eastern Daylight Time/Daylight Savings Time (AEST)](https://www.timeanddate.com/time/zones/aedt)
+- (10am, 12pm, 2pm, 4pm, 6pm, 8pm, 10pm, 12am, 2am, 4am, 8am) [Australian Eastern Standard Time (AEST)](https://www.timeanddate.com/time/zones/aest)
+- (11am, 1pm, 3pm, 5pm, 7pm, 9pm, 11pm, 1am, 3am, 5am, 7am, 9am) [Australian Eastern Daylight Time/Daylight Savings Time (AEST)](https://www.timeanddate.com/time/zones/aedt)
+
+## Data Sources
+
+The data is sourced is various health departments for each state:
+
+- NSW Department of Health: [Known flights with confirmed cases of COVID-19](https://www.health.nsw.gov.au/Infectious/diseases/Pages/coronavirus-flights.aspx)
+- SA Health: [Known flights with confirmed cases of COVID-19](https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/health+topics/health+topics+a+-+z/covid+2019/latest+updates/known+flights+with+confirmed+cases+of+covid-19)
+- WA Department of Health: [Locations visited by confirmed cases](https://healthywa.wa.gov.au/Articles/A_E/Coronavirus/Locations-visited-by-confirmed-cases)
 
 # Development
 
