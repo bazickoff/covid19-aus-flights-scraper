@@ -1,5 +1,5 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows
-Emirates,EK0406,Dubai,Melbourne,Tues 10 March 2020,Tues 24 March 2020,
+Emirates,EK0406,Dubai,Melbourne,Tue 10 March 2020,Tue 24 March 2020,
 Qantas,QF430,Melbourne,Sydney,Mon 9 March 2020,Mon 23 March 2020,
 Qantas,QF459,Sydney,Melbourne,Mon 9 March 2020,Mon 23 March 2020,
 Virgin Australia,VA24,Los Angeles,Melbourne,Sun 8 March 2020,Sun 22 March 2020,

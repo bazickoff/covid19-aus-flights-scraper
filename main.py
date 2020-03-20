@@ -49,6 +49,26 @@ class Scraper:
         table = content.find('table')
         return self.get_data(table)
 
+    def get_static_data(self, state):
+        target_uri = f'./flight_data/{state}/latest.csv'
+        data = []
+        with open(target_uri) as csv_file:
+            csv_reader = csv.reader(csv_file, delimiter=',')
+            next(csv_reader, None)
+            for row in csv_reader:
+                flight = {
+                    'airline': row[0],
+                    'flight_number': row[1],
+                    'origin': row[2],
+                    'destination': row[3],
+                    'arrival_date': datetime.strptime(row[4], '%a %d %B %Y'),
+                    'symptoms_onset_date': datetime.strptime(row[5], '%a %d %B %Y'),
+                    'close_contact_rows': row[6],
+                    'reporting_state': state.upper(),
+                }
+                data.append(flight)
+        return data
+
     def get_global_data(self):
         nsw_flight_data = self.get_nsw_flight_data()
         sa_flight_data = self.get_sa_flight_data()
@@ -114,6 +134,8 @@ class Scraper:
 
             data.append(flight)
 
+        data += self.get_static_data('act') + self.get_static_data('vic')
+
         data = sorted(data, key=lambda x: x['arrival_date'], reverse=True)
 
         for flight in data:
@@ -128,7 +150,6 @@ if __name__ == "__main__":
     nsw_flight_data = scraper.get_nsw_flight_data()
     sa_flight_data = scraper.get_sa_flight_data()
     wa_flight_data = scraper.get_wa_flight_data()
-
     combined_flight_data = scraper.get_global_data()
 
     current_timestamp = datetime.now()
