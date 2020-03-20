@@ -1,0 +1,4 @@
+airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows
+Qantas,QF94,Los Angeles,Melbourne,Tues 17 March 2020,Tues 31 March 2020,"71,72,73,74,75"
+Qantas,QF2130,Melbourne,Canberra,Tues 17 March 2020,Tues 31 March 2020,"15,16,17,18,19"
+Garuda Indonesia,GA712,Jakarta,Sydney,Tues 17 March 2020,Tues 31 March 2020,"41,42,43,44,45"
