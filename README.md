@@ -23,6 +23,10 @@ The data is sourced is various health departments for each state:
 - SA Health: [Known flights with confirmed cases of COVID-19](https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/health+topics/health+topics+a+-+z/covid+2019/latest+updates/known+flights+with+confirmed+cases+of+covid-19)
 - WA Department of Health: [Locations visited by confirmed cases](https://healthywa.wa.gov.au/Articles/A_E/Coronavirus/Locations-visited-by-confirmed-cases)
 
+### Note for ACT Data
+
+ACT data is currently sourced from: [https://www.health.act.gov.au/about-our-health-system/novel-coronavirus-covid-19/latest-news](https://www.health.act.gov.au/about-our-health-system/novel-coronavirus-covid-19/latest-news), there's no official flights table - will working on a solution (probably have to be NLP) to automate this process
+
 ### Note for Victorian Data
 
 As of 14 Mar 2020, the Victorian Department of Health and Humans Services (DHHS) has stopped reporting official location history for each suspected case. As such data for each flight will not be available.
