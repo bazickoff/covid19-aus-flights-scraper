@@ -67,7 +67,7 @@ class Scraper:
             [origin, destination] = row[2].split('/')
 
             flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %y')}
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
             data.append(flight)
 
         for row in sa_flight_data[1:]:
@@ -95,7 +95,7 @@ class Scraper:
             symptoms_onset_date = arrival_date + timedelta(days=14)
             close_contact_rows = ''
             flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'SA', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %y')}
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'SA', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
 
             data.append(flight)
 
