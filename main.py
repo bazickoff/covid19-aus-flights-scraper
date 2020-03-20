@@ -84,7 +84,8 @@ class Scraper:
             if '–' in flight_path:
                 [origin, destination] = flight_path.split(' – ')
             elif '-' in flight_path:
-                [origin, destination] = flight_path.split(' - ')
+                [origin, destination] = flight_path.replace(
+                    u'\xa0', u' ').split(' - ')
             else:
                 [origin, destination] = ['', '']
 
