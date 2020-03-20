@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. Triggers the workflow on push or pull request 
+# Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   schedule:
@@ -28,3 +28,11 @@ jobs:
         with:
           commit_message: daily update
           branch: ${{ github.head_ref }}
+      - name: Copy
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          src_path: /flight_data
+          dst_path: /data
+          dst_owner: AusCovid19
+          dst_repo_name: flight-tracker-api
