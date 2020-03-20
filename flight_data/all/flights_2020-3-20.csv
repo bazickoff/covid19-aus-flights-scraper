@@ -1,7 +1,9 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows,reporting_state
+Qantas,QF2,Singapore,Sydney,Tue 17 March 2020,Tue 31 March 2020,"74,75, 76, 77",NSW
 Virgin Australia,VA437,Sydney,Adelaide,Tue 17 March 2020,Tue 31 March 2020,,SA
 Etihad,EY450,Abu Dhabi,Sydney,Mon 16 March 2020,Mon 30 March 2020,"19, 20, 21, 22, 23",NSW
 Virgin Australia,VA211,Melbourne,Adelaide,Mon 16 March 2020,Mon 30 March 2020,,SA
+United Airlines,UA839,Loas Angeles,Sydney,Sun 15 March 2020,Sun 29 March 2020,"31,32,33,34,35",NSW
 Emirates,EK414,Dubai,Sydney,Sun 15 March 2020,Sun 29 March 2020,"39,40, 41, 42, 43",NSW
 Qantas,QF751,Adelaide,Sydney,Sun 15 March 2020,Sun 29 March 2020,,SA
 Emirates Airlines,EK440,Dubai,Adelaide,Sun 15 March 2020,Sun 29 March 2020,,SA
