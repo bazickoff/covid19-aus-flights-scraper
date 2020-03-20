@@ -32,7 +32,7 @@ jobs:
         uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          src_path: /flight_data
+          src_path: /json
           dst_path: /data
           dst_owner: AusCovid19
           dst_repo_name: flight-tracker-api

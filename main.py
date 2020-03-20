@@ -62,7 +62,7 @@ class Scraper:
                     'origin': row[2],
                     'destination': row[3],
                     'arrival_date': datetime.strptime(row[4], '%a %d %B %Y'),
-                    'symptoms_onset_date': datetime.strptime(row[5], '%a %d %B %Y'),
+                    'symptoms_onset_date': row[5],
                     'close_contact_rows': row[6],
                     'reporting_state': state.upper(),
                 }
@@ -141,7 +141,6 @@ class Scraper:
         for flight in data:
             flight['arrival_date'] = flight['arrival_date'].strftime(
                 '%a %d %B %Y')
-
         return data
 
 
@@ -165,6 +164,9 @@ if __name__ == "__main__":
 
     if not os.path.exists('./flight_data/all'):
         os.makedirs('./flight_data/all')
+
+    if not os.path.exists('./json/all'):
+        os.makedirs('./json/all')
 
     today = f"{current_timestamp.year}-{current_timestamp.month}-{current_timestamp.day}"
     with open(f'./flight_data/nsw/flights_{today}.csv', 'w', newline='') as file:
@@ -202,3 +204,6 @@ if __name__ == "__main__":
             file, header)
         writer.writeheader()
         writer.writerows(combined_flight_data)
+
+    with open(f'./json/all/latest.json', 'w') as file:
+        json.dump(combined_flight_data, file)
