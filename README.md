@@ -38,6 +38,10 @@ The ACT data is currently sourced from: [https://www.health.act.gov.au/about-our
 
 As of 14th March 2020, the Victorian Department of Health and Human Services (Vic DHHS) has stopped reporting official location history for each suspected case. As such, data of flights for each confirmed case will not be available and require manual updates.
 
+# API Layer
+
+The API layer will be available soon!
+
 # Development
 
 ## Installing Dependencies
