@@ -1,6 +1,7 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows,reporting_state
 Virgin Australia,VA437,Sydney,Adelaide,Tue 17 March 2020,Tue 31 March 20,,SA
 Etihad,EY450,Abu Dhabi,Sydney,Mon 16 March 2020,Mon 30 March 20,"19, 20, 21, 22, 23",NSW
+Virgin Australia,VA211,Melbourne,Adelaide,Mon 16 March 2020,Mon 30 March 20,,SA
 Emirates,EK414,Dubai,Sydney,Sun 15 March 2020,Sun 29 March 20,"39,40, 41, 42, 43",NSW
 Qantas,QF751,Adelaide,Sydney,Sun 15 March 2020,Sun 29 March 20,,SA
 Emirates Airlines,EK440,Dubai,Adelaide,Sun 15 March 2020,Sun 29 March 20,,SA
