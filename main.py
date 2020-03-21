@@ -22,7 +22,8 @@ class Scraper:
             rows.append(headerow)
             trs = trs[1:]
         for tr in trs:  # for every table row
-            rows.append([td.get_text(strip=True).strip('\u200b')
+            rows.append([td.get_text(' & ',
+                                     strip=True).strip('\u200b')
                          for td in tr.find_all('td')])  # data row
         return rows
 
@@ -47,6 +48,11 @@ class Scraper:
         target_url = "https://healthywa.wa.gov.au/Articles/A_E/Coronavirus/Locations-visited-by-confirmed-cases"
         content = self.get_html(target_url).find('div', id="contentText")
         table = content.find('table')
+        return self.get_data(table)
+
+    def get_qld_flight_data(self):
+        target_url = "https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts"
+        table = self.get_html(target_url).find('table', id="table94436")
         return self.get_data(table)
 
     def get_static_data(self, state):
@@ -78,17 +84,19 @@ class Scraper:
         current_timestamp = datetime.now()
 
         for row in nsw_flight_data[1:]:
-            flight_number = row[0]
-            arrival_date = datetime.strptime(row[4], '%d %B %Y')
-            symptoms_onset_date = arrival_date + timedelta(days=14)
-            close_contact_rows = row[5]
+            if(row[0] != ''):
+                flight_number = row[0]
+                arrival_date = datetime.strptime(row[4], '%d %B %Y')
+                symptoms_onset_date = arrival_date + timedelta(days=14)
+                close_contact_rows = row[5].replace(
+                    '\xa0', ',').replace('\r\n', '&')
 
-            airline = row[1]
-            [origin, destination] = row[2].split('/')
+                airline = row[1]
+                [origin, destination] = row[2].split('/')
 
-            flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
-            data.append(flight)
+                flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
+                          'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
+                data.append(flight)
 
         for row in sa_flight_data[1:]:
             flight_number = row[0]
@@ -149,6 +157,7 @@ if __name__ == "__main__":
     nsw_flight_data = scraper.get_nsw_flight_data()
     sa_flight_data = scraper.get_sa_flight_data()
     wa_flight_data = scraper.get_wa_flight_data()
+    qld_flight_data = scraper.get_qld_flight_data()
     combined_flight_data = scraper.get_global_data()
 
     current_timestamp = datetime.now()
@@ -161,6 +170,8 @@ if __name__ == "__main__":
         os.makedirs('./flight_data/sa')
     if not os.path.exists('./flight_data/wa'):
         os.makedirs('./flight_data/wa')
+    if not os.path.exists('./flight_data/qld'):
+        os.makedirs('./flight_data/qld')
 
     if not os.path.exists('./flight_data/all'):
         os.makedirs('./flight_data/all')
@@ -189,6 +200,13 @@ if __name__ == "__main__":
     with open(f'./flight_data/wa/latest.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(wa_flight_data)
+
+    with open(f'./flight_data/qld/flights_{today}.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(qld_flight_data)
+    with open(f'./flight_data/qld/latest.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(qld_flight_data)
 
     header = ['airline', 'flight_number',  'origin', 'destination', 'arrival_date', 'symptoms_onset_date',
               'close_contact_rows', 'reporting_state']
