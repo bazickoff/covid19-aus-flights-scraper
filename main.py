@@ -22,7 +22,7 @@ class Scraper:
             rows.append(headerow)
             trs = trs[1:]
         for tr in trs:  # for every table row
-            rows.append([td.get_text(' & ',
+            rows.append([td.get_text('',
                                      strip=True).strip('\u200b')
                          for td in tr.find_all('td')])  # data row
         return rows
