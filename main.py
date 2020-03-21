@@ -79,6 +79,7 @@ class Scraper:
         nsw_flight_data = self.get_nsw_flight_data()
         sa_flight_data = self.get_sa_flight_data()
         wa_flight_data = self.get_wa_flight_data()
+        qld_flight_data = self.get_qld_flight_data()
 
         data = []
         current_timestamp = datetime.now()
@@ -141,6 +142,20 @@ class Scraper:
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'WA', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
 
             data.append(flight)
+
+        for row in qld_flight_data[1:]:
+            if(row[0] != ''):
+                flight_number = row[0]
+                airline = row[1]
+                arrival_date = datetime.strptime(row[4], '%d-%B-%Y')
+                symptoms_onset_date = arrival_date + timedelta(days=14)
+                close_contact_rows = row[6]
+
+                origin, destination = row[2], row[3]
+
+                flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
+                          'close_contact_rows': close_contact_rows, 'reporting_state': 'QLD', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
+                data.append(flight)
 
         data += self.get_static_data('act') + self.get_static_data('vic')
 
