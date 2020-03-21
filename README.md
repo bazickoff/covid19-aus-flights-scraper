@@ -7,6 +7,7 @@ The latest dataset for each state is available at:
 - [New South Wales](./flight_data/nsw/latest.csv)
 - [South Australia](./flight_data/sa/latest.csv)
 - [Western Australia](./flight_data/wa/latest.csv)
+- [Queensland](./flight_data/qld/latest.csv)
 
 ## Static Data
 
@@ -29,6 +30,7 @@ The data is sourced from various health departments in each state of Australia:
 - NSW Department of Health: [Known flights with confirmed cases of COVID-19](https://www.health.nsw.gov.au/Infectious/diseases/Pages/coronavirus-flights.aspx)
 - SA Health: [Known flights with confirmed cases of COVID-19](https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/health+topics/health+topics+a+-+z/covid+2019/latest+updates/known+flights+with+confirmed+cases+of+covid-19)
 - WA Department of Health: [Locations visited by confirmed cases](https://healthywa.wa.gov.au/Articles/A_E/Coronavirus/Locations-visited-by-confirmed-cases)
+- Queensland Department of Health: [Current status and contact tracing alerts](https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts)
 
 ### Note for ACT Data
 
