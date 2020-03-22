@@ -35,4 +35,4 @@ jobs:
           src_path: /json
           dst_path: /data
           dst_owner: AusCovid19
-          dst_repo_name: flight-tracker-api
+          dst_repo_name: covid19-aus-flights
