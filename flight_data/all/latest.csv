@@ -19,6 +19,7 @@ LATAM Airlines,LA801,Auckland,Sydney,Tue 17 March 2020,Tue 31 March 2020,TBC,NSW
 Singapore Airlines,SQ221,Singapore,Sydney,Tue 17 March 2020,Tue 31 March 2020,"16, 17, 18, 19, 20",NSW
 Qantas,QF429,Sydney,Melbourne,Tue 17 March 2020,Tue 31 March 2020,"7,8,9,10,11",NSW
 Virgin Australia,VA437,Sydney,Adelaide,Tue 17 March 2020,Tue 31 March 2020,,SA
+Emirates,EK0420,Dubai,Perth,Tue 17 March 2020,Tue 31 March 2020,"82, 83, 84,85, 86",WA
 Qantas,QF52,Singapore,Brisbane,Tue 17 March 2020,Tue 31 March 2020,Further information pending,QLD
 Virgin Australia,VA672,Sydney,Canberra,Tue 17 March 2020,Tue 31 March 2020,"12,13,14,15,16",ACT
 Qatar,QR908,Doha,Sydney,Tue 17 March 2020,Tue 31 March 2020,"79,80,81,82,83",ACT
@@ -40,6 +41,9 @@ Qantas,QF8765EK413,Christchurch,Sydney,Mon 16 March 2020,Mon 30 March 2020,"7, 8
 Scoot,TR12,Singapore,Sydney,Mon 16 March 2020,Mon 30 March 2020,"7, 8, 9, 10, 11",NSW
 Virgin Australia,VA815,Melbourne,Sydney,Mon 16 March 2020,Mon 30 March 2020,"1, 2, 3, 4",NSW
 Virgin Australia,VA211,Melbourne,Adelaide,Mon 16 March 2020,Mon 30 March 2020,,SA
+Qatar Airways,QR900,Doha,Perth,Mon 16 March 2020,Mon 30 March 2020,"16, 17, 18, 19, 20",WA
+Air New Zealand,NZ175,Auckland,PerthArriving 15:40,Mon 16 March 2020,Mon 30 March 2020,"22, 23, 24, 25, 26, 27",WA
+QANTAS,QF581,Sydney,PerthArriving 12:20,Mon 16 March 2020,Mon 30 March 2020,"1, 2, 3, 4, 5",WA
 Virgin,VA931,Sydney,Brisbane,Mon 16 March 2020,Mon 30 March 2020,"24, 25, 26, 27, 28, 29",QLD
 Emirates,EK434,Dubai,Brisbane,Mon 16 March 2020,Mon 30 March 2020,"44, 45, 46, 47, 48",QLD
 Qantas,QF520,Sydney,Brisbane,Mon 16 March 2020,Mon 30 March 2020,Further information pending,QLD
@@ -119,6 +123,7 @@ Air New Zealand,NZ191,Auckland,Adelaide,Fri 13 March 2020,Fri 27 March 2020,,SA
 Qantas,QF94,Los Angeles,Melbourne,Fri 13 March 2020,Fri 27 March 2020,,SA
 Qantas,QF685,Melbourne,Adelaide,Fri 13 March 2020,Fri 27 March 2020,,SA
 Emirates,EK0420,Dubai,Perth,Fri 13 March 2020,Fri 27 March 2020,"62, 63, 64, 65, 66",WA
+Qatar Airways,QR900,Doha,PerthArriving 18:25,Fri 13 March 2020,Fri 27 March 2020,"78, 79, 80, 81, 82, 83",WA
 Emirates,EK430/QF8430,Dubai,Brisbane,Fri 13 March 2020,Fri 27 March 2020,"29, 30, 31, 32, 33",QLD
 Qantas,QF619,Brisbane,Melbourne,Fri 13 March 2020,Fri 27 March 2020,Further information pending,QLD
 Qantas,QF632,Melbourne,Brisbane,Fri 13 March 2020,Fri 27 March 2020,Further information pending,QLD
