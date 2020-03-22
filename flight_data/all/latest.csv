@@ -1,8 +1,10 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows,reporting_state
 Rex,ZL852,Sydney,Dubbo,Thu 19 March 2020,Thu 02 April 2020,"6, 7, 8, 9, 10",NSW
 United Airlines,UA863,San Francisco,Sydney,Wed 18 March 2020,Wed 01 April 2020,"31, 32, 33, 34, 35",NSW
+Qantas,QF12,San Francisco,Sydney,Wed 18 March 2020,Wed 01 April 2020,"20, 21, 22, 23, 24",NSW
 Qantas,QF74,San Francisco,Sydney,Wed 18 March 2020,Wed 01 April 2020,"20, 21,,22,,23, 40,",NSW
 Emirates,EK412/QF8412,Dubai,Sydney,Wed 18 March 2020,Wed 01 April 2020,"42, 43, 44, 45, 46",NSW
+Emirates,EK414,Dubai,Sydney,Wed 18 March 2020,Wed 01 April 2020,"13, 14, 15, 16, 17",NSW
 Etihad,EY454,Abu Dhabi,Sydney,Wed 18 March 2020,Wed 01 April 2020,"1, 2, 3, 4",NSW
 Qantas,QF16,Los Angeles,Brisbane,Wed 18 March 2020,Wed 01 April 2020,"46, 47, 48",QLD
 Virgin Australia,VA640,Sydney,Canberra,Wed 18 March 2020,Wed 1 April 2020,"3,4,5,6,7",ACT
@@ -14,6 +16,7 @@ Emirates,EK414,Dubai,Sydney,Tue 17 March 2020,Tue 31 March 2020,"45, 46, 47, 48,
 Qantas,QF2,Singapore,Sydney,Tue 17 March 2020,Tue 31 March 2020,"74, 75, 76, 77",NSW
 Qantas,QF12,San Francisco,Sydney,Tue 17 March 2020,Tue 31 March 2020,"51, 52, 53, 54, 55",NSW
 LATAM Airlines,LA801,Auckland,Sydney,Tue 17 March 2020,Tue 31 March 2020,TBC,NSW
+Singapore Airlines,SQ221,Singapore,Sydney,Tue 17 March 2020,Tue 31 March 2020,"16, 17, 18, 19, 20",NSW
 Qantas,QF429,Sydney,Melbourne,Tue 17 March 2020,Tue 31 March 2020,"7,8,9,10,11",NSW
 Virgin Australia,VA437,Sydney,Adelaide,Tue 17 March 2020,Tue 31 March 2020,,SA
 Qantas,QF52,Singapore,Brisbane,Tue 17 March 2020,Tue 31 March 2020,Further information pending,QLD
