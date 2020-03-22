@@ -279,4 +279,4 @@ if __name__ == "__main__":
         writer.writerows(combined_flight_data)
 
     with open(f'./json/all/latest.json', 'w') as file:
-        json.dump(combined_flight_data, file)
+        json.dump(combined_flight_data, file, sort_keys=True,  indent=2)
