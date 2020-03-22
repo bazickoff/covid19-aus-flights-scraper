@@ -1,4 +1,7 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows,reporting_state
+Jetstar,JQ82,Denpasar,Darwin,Thu 19 March 2020,Thu 02 April 2020,"46, 47, 48",NT
+Qantas,QF824,Brisbane,Darwin,Thu 19 March 2020,Thu 02 April 2020,"46, 47, 48",NT
+Jetstar,JQ672,Sydney,Darwin,Thu 19 March 2020,Thu 02 April 2020,"46, 47, 48",NT
 United Airlines,UA863,San Francisco,Sydney,Wed 18 March 2020,Wed 01 April 2020,"31, 32, 33, 34, 35",NSW
 Qantas,QF12,San Francisco,Sydney,Wed 18 March 2020,Wed 01 April 2020,"20, 21, 22, 23, 24",NSW
 Qantas,QF74,San Francisco,Sydney,Wed 18 March 2020,Wed 01 April 2020,"20, 21,,22,,23, 40,",NSW
