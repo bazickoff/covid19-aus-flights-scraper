@@ -37,7 +37,7 @@ Etihad/Virgin,EY454 / VA7092,Abu Dhabi,Sydney,Mon 16 March 2020,Mon 30 March 202
 Etihad,EY450,Abu Dhabi,Sydney,Mon 16 March 2020,Mon 30 March 2020,"18, 19, 20, 21, 22, 23",NSW
 Malindo Air,OD177,Denpasar,Melbourne,Mon 16 March 2020,Mon 30 March 2020,"2,3,4,5,6",NSW
 Qantas,QF2,Singapore,Sydney,Mon 16 March 2020,Mon 30 March 2020,"75, 76, 77, 78, 79",NSW
-Qatar Airlines,QR905,Doha,Sydney,Mon 16 March 2020,Mon 30 March 2020,"17, 18, 19, 20, 21",NSW
+Qatar Airlines,QR906,Doha,Sydney,Mon 16 March 2020,Mon 30 March 2020,"17, 18, 19, 20, 21",NSW
 Qantas,QF8,Dallas,Sydney,Mon 16 March 2020,Mon 30 March 2020,"2, 3, 4, 5, 48",NSW
 Qantas,QF8765EK413,Christchurch,Sydney,Mon 16 March 2020,Mon 30 March 2020,"7, 8, 9, 10, 11",NSW
 Scoot,TR12,Singapore,Sydney,Mon 16 March 2020,Mon 30 March 2020,"7, 8, 9, 10, 11",NSW
@@ -76,7 +76,7 @@ Thai Airways,TG481,Bangkok,Perth,Sun 15 March 2020,Sun 29 March 2020,"47, 48, 49
 Qantas,QF60,San Francisco,Brisbane,Sun 15 March 2020,Sun 29 March 2020,Further information pending,QLD
 Royal Brunei Airlines,B10009,Brunei,Brisbane,Sun 15 March 2020,Sun 29 March 2020,"33, 34, 35, 36, 37",QLD
 Virgin,VA357,Melbourne,Brisbane,Sun 15 March 2020,Sun 29 March 2020,"5, 6, 7, 8, 9",QLD
-British AirwaysLondon,BA15,Singapore,Sydney,Sun 15 March 2020,Sun 29 March 2020,Further information pending,QLD
+British Airways London,BA15,Singapore,Sydney,Sun 15 March 2020,Sun 29 March 2020,Further information pending,QLD
 Etihad,EY450,Abu Dhabi,Sydney,Sun 15 March 2020,Sun 29 March 2020,Further information pending,QLD
 Emirates,EK434,Dubai,Brisbane,Sun 15 March 2020,Sun 29 March 2020,"48, 49, 50, 51",QLD
 Etihad,EY484,Abu Dhabi,Brisbane,Sun 15 March 2020,Sun 29 March 2020,"34, 35, 36, 37",QLD
@@ -209,7 +209,7 @@ Qantas,QF8414,Dubai,Sydney,Sun 08 March 2020,Sun 22 March 2020,"45, 46, 47, 48, 
 Virgin Australia,VA535,Sydney,Coolangatta,Sun 08 March 2020,Sun 22 March 2020,"19, 20, 21, 22, 23",NSW
 Singapore Airlines,SQ919,Manila,Singapore,Sun 08 March 2020,Sun 22 March 2020,,SA
 Emirates,EK0420,Dubai,Perth,Sun 08 March 2020,Sun 22 March 2020,"45, 46, 47, 48, 49",WA
-Virgin,VA535,Sydney,Cooloongatta,Sun 08 March 2020,Sun 22 March 2020,"19, 20, 21, 22, 23",QLD
+Virgin,VA535,Sydney,Coolangatta,Sun 08 March 2020,Sun 22 March 2020,"19, 20, 21, 22, 23",QLD
 Singapore Airlines,SQ265,Singapore,Brisbane,Sun 08 March 2020,Sun 22 March 2020,"41, 42, 43, 44, 45",QLD
 Qantas,QF16,Los Angeles,Brisbane,Sun 08 March 2020,Sun 22 March 2020,"1, 2, 3, 4, 5",QLD
 China Airlines,Cl53,Taipei,Brisbane,Sun 08 March 2020,Sun 22 March 2020,Further information pending,QLD
