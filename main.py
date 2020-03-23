@@ -106,7 +106,7 @@ class Scraper:
         for row in nsw_flight_data[1:]:
             if(row[0] != ''):
                 flight_number = row[0]
-                arrival_date = datetime.strptime(row[4], '%d %B %Y')
+                arrival_date = datetime.strptime(row[4].strip(" "), '%d %B %Y')
                 symptoms_onset_date = arrival_date + timedelta(days=14)
                 close_contact_rows = row[5].replace(
                     '\xa0', ',').replace('\r\n', '&')
