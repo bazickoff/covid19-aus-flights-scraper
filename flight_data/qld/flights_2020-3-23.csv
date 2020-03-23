@@ -1,11 +1,5 @@
 Flight Number,Airline,Origin,Destination,Date of Departure,Date of Arrival,Close Contact Rows
-VA2,Virgin,Los Angeles,Sydney,05-March-2020,07-March-2020,"Rows 26-52 (Seats A, B, C, D, F, G) (Seats H, J, K not affected)"
-SQ235,Singapore Airlines,Singapore,Brisbane,06-March-2020,07-March-2020,"51,52,53, 54, 55"
-EY484,Etihad,Abu Dhabi,Brisbane,06-March-2020,07-March-2020,"25, 26, 27, 28, 29"
 QF56,Qantas,Los Angeles,Brisbane,07-March-2020,09-March-2020,"50, 51, 52, 53, 54"
-VA535,Virgin,Sydney,Coolangatta,08-March-2020,08-March-2020,"19, 20, 21, 22, 23"
-SQ265,Singapore Airlines,Singapore,Brisbane,08-March-2020,08-March-2020,"41, 42, 43, 44, 45"
-QF16,Qantas,Los Angeles,Brisbane,08-March-2020,06-March-2020,"1, 2, 3, 4, 5"
 Cl53,China Airlines,Taipei,Brisbane,08-March-2020,09-March-2020,Further information pending
 QF16,Qantas,Los Angeles,Brisbane,08-March-2020,10-March-2020,Further information pending
 QF16,Qantas,Los Angeles,Brisbane,08-March-2020,10-March-2020,"5, 6, 7, 8, 9"
