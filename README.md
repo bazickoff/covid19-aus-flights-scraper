@@ -9,11 +9,11 @@ The latest dataset for each state is available at:
 - [Western Australia](./flight_data/wa/latest.csv)
 - [Queensland](./flight_data/qld/latest.csv)
 - [Nothern Territory](./flight_data/nt/latest.csv)
+- [Australian Capital Territory](./flight_data/act/latest.csv)
 
 ## Static Data
 
 - [Victoria](./flight_data/vic/latest.csv)
-- [Australian Capital Territory](./flight_data/wa/latest.csv)
 
 ## Other Datasets
 
@@ -33,10 +33,7 @@ The data is sourced from various health departments in each state of Australia:
 - WA Department of Health: [Locations visited by confirmed cases](https://healthywa.wa.gov.au/Articles/A_E/Coronavirus/Locations-visited-by-confirmed-cases)
 - Queensland Department of Health: [Current status and contact tracing alerts](https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts)
 - NT Government: [Contact tracing](https://coronavirus.nt.gov.au/home/homepage-news/contact-tracing)
-
-### Note for ACT Data
-
-The ACT data is currently sourced from: [https://www.health.act.gov.au/about-our-health-system/novel-coronavirus-covid-19/latest-news](https://www.health.act.gov.au/about-our-health-system/novel-coronavirus-covid-19/latest-news), there's no official flights table - I will working on a solution (probably have to be NLP) to automate this process
+- ACT Health: [Known flights with ACT confirmed cases of COVID-19](https://www.health.act.gov.au/about-our-health-system/novel-coronavirus-covid-19/known-flights-act-confirmed-cases-covid-19)
 
 ### Note for Victorian Data
 

@@ -73,6 +73,13 @@ class Scraper:
                          for td in tr.find_all('td')])  # data row
         return rows
 
+    def get_act_flight_data(self):
+        target_url = 'https://www.health.act.gov.au/about-our-health-system/novel-coronavirus-covid-19/known-flights-act-confirmed-cases-covid-19'
+        inner_content = self.get_html(target_url).find(
+            'div', class_="region region-content")
+        table = inner_content.find('table')
+        return self.get_data(table)
+
     def get_static_data(self, state):
         target_uri = f'./flight_data/{state}/latest.csv'
         data = []
@@ -99,6 +106,7 @@ class Scraper:
         wa_flight_data = self.get_wa_flight_data()
         qld_flight_data = self.get_qld_flight_data()
         nt_flight_data = self.get_nt_flight_data()
+        act_flight_data = self.get_act_flight_data()
 
         data = []
         current_timestamp = datetime.now()
@@ -187,7 +195,27 @@ class Scraper:
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'NT', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
             data.append(flight)
 
-        data += self.get_static_data('act') + self.get_static_data('vic')
+        for row in act_flight_data[1:]:
+            arrival_date = datetime.strptime(f'{row[4]}-2020', '%d-%b-%Y')
+            symptoms_onset_date = arrival_date + timedelta(days=14)
+
+            flight_number = row[0]
+
+            airline = row[1]
+            close_contact_rows = row[5]
+            flight_path = row[2].split('/')
+            if(len(flight_path) == 3):
+                origin = f'{flight_path[0]} (via {flight_path[1]})'
+                origin = f'{flight_path[2]})'
+            else:
+                origin = f'{flight_path[0]}'
+                origin = f'{flight_path[1]})'
+
+            flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
+                      'close_contact_rows': close_contact_rows, 'reporting_state': 'ACT', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
+            data.append(flight)
+
+        data += self.get_static_data('vic')
 
         data = sorted(data, key=lambda x: x['arrival_date'], reverse=True)
 
@@ -204,22 +232,18 @@ if __name__ == "__main__":
     wa_flight_data = scraper.get_wa_flight_data()
     qld_flight_data = scraper.get_qld_flight_data()
     nt_flight_data = scraper.get_nt_flight_data()
+    act_flight_data = scraper.get_act_flight_data()
     combined_flight_data = scraper.get_global_data()
 
     current_timestamp = datetime.now()
 
     if not os.path.exists('./flight_data'):
         os.makedirs('./flight_data')
-    if not os.path.exists('./flight_data/nsw'):
-        os.makedirs('./flight_data/nsw')
-    if not os.path.exists('./flight_data/sa'):
-        os.makedirs('./flight_data/sa')
-    if not os.path.exists('./flight_data/wa'):
-        os.makedirs('./flight_data/wa')
-    if not os.path.exists('./flight_data/qld'):
-        os.makedirs('./flight_data/qld')
-    if not os.path.exists('./flight_data/nt'):
-        os.makedirs('./flight_data/nt')
+    states = ['nsw', 'sa', 'wa', 'qld', 'nt', 'act']
+
+    for state in states:
+        if not os.path.exists(f'./flight_data/{state}'):
+            os.makedirs(f'./flight_data/{state}')
 
     if not os.path.exists('./flight_data/all'):
         os.makedirs('./flight_data/all')
@@ -262,6 +286,13 @@ if __name__ == "__main__":
     with open(f'./flight_data/nt/latest.csv', 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerows(nt_flight_data)
+
+    with open(f'./flight_data/act/flights_{today}.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(act_flight_data)
+    with open(f'./flight_data/act/latest.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(act_flight_data)
 
     header = ['airline', 'flight_number',  'origin', 'destination', 'arrival_date', 'symptoms_onset_date',
               'close_contact_rows', 'reporting_state']
