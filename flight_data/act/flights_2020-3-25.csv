@@ -1,0 +1,26 @@
+Flight,Airline,Origin/Destination,Date of departure,Date of arrival,Close contact rows,News item
+GA712,Garuda,Jakarta/Sydney,13-Mar,14-Mar,"40,41,42,43,44",18 March
+QF94,Qantas,Los Angeles/Melbourne,16-Mar,17-Mar,"71,72,73,74,75",19 March
+QF2130,Qantas,Melbourne/Canberra,17-Mar,17-Mar,"15,16,17,18,19",19 March
+EY78,Etihad,Amsterdam/Abu Dhabi,16-Mar,17-Mar,**,20 March
+EY450,Etihad,Abu Dhabi/Sydney,17-Mar,18-Mar,"42,43,44,45,46",20 March
+VA640,Virgin Australia,Sydney/Canberra,18-Mar,18-Mar,"3,4,5,6,7",20 March
+QR908,Qatar,Doha/Sydney,16-Mar,17-Mar,"79,80,81,82,83",21 March
+VA672,Virgin Australia,Sydney/Canberra,17-Mar,17-Mar,"12,13,14,15,16",21 March
+QR906,Qatar,Doha/Sydney/Canberra,15-Mar,16-Mar,*,21 March
+QR906,Qatar,Doha/Sydney/Canberra,14-Mar,15-Mar,"27,28,29,30,31",23 March
+EY450,Etihad,Abu Dhabi/Sydney,18-Mar,19-Mar,"15,16,17,18,19",23 March
+VA640,Virgin Australia,Sydney/Canberra,19-Mar,19-Mar,"10,11,12,13,14",23 March
+QF74,Qantas,San Francisco/Sydney,16-Mar,18-Mar,"54,55,56,57,58",23 March
+QF1513,Qantas,Sydney/Canberra,18-Mar,18-Mar,,23 March
+QF36,Qantas,Singapore/Melbourne,15-Mar,16-Mar,"56,57,58,59,60",23 March
+QF816,Qantas,Melbourne/Canberra,17-Mar,17-Mar,,23 March
+SQ288,Singapore Airlines,Singapore/Sydney/Canberra,19-Mar,19-Mar,"30,31,32,33,34",23 March
+QR906,Qatar,Doha/Sydney/Canberra,16-Mar,17-Mar,"42,43,44,45,46",23 March
+QF42,Qantas,Jakarta/Sydney,10-Mar,11-Mar,"90,91,92,93,94",23 March
+VA134,Virgin Australia,Christchurch/Sydney,17-Mar,17-Mar,"23,24,25,26,27",23 March
+VA640,Virgin Australia,Sydney/Canberra,17-Mar,17-Mar,"3,4,5,6,7",23 March
+QF8412,Emirates,Dubai/Sydney,17-Mar,18-Mar,"24,25,26,27,28",
+QF1473,Qantas,Sydney/Canberra,18-Mar,18-Mar,"1,2,3,4,5",
+QF1467,Qantas,Sydney/Canberra,20-Mar,20-Mar,"10,11,12,13,14",
+BA15,British Airways,London/Singapore/Sydney,18-Mar,20-Mar,"47,48,49,50,51",
