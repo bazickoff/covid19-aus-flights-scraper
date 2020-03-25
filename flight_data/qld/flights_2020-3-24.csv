@@ -1,15 +1,9 @@
 Flight Number,Airline,Origin,Destination,Date of Departure,Date of Arrival,Close Contact Rows
-QF56,Qantas,Los Angeles,Brisbane,07-March-2020,09-March-2020,"50, 51, 52, 53, 54"
-Cl53,China Airlines,Taipei,Brisbane,08-March-2020,09-March-2020,Further information pending
 QF16,Qantas,Los Angeles,Brisbane,08-March-2020,10-March-2020,Further information pending
 QF16,Qantas,Los Angeles,Brisbane,08-March-2020,10-March-2020,"5, 6, 7, 8, 9"
-QF2512,Qantas,Brisbane,Mackay,09-March-2020,09-March-2020,"11, 12, 13, 14, 15"
 EY484,Etihad,Abu Dhabi,Brisbane,09-March-2020,10-March-2020,"29, 30, 31, 32, 33"
-EK430,Emirates,Dubai,Brisbane,09-March-2020,09-March-2020,"47, 48, 49, 50, 51"
-EK430/QF8430,Emirates,Dubai,Brisbane,09-March-2020,09-March-2020,"37,38, 39, 40, 41"
 EY462,Etihad,Abu Dhabi,Melbourne,09-March-2020,10-March-2020,Further information pending
 EY462,Etihad,Abu Dhabi,Melbourne,09-March-2020,10-March-2020,Further information pending
-QF589,Qantas,Brisbane,Perth,09-March-2020,09-March-2020,
 EY484,Etihad,Abu Dhabi,Brisbane,11-March-2020,12-March-2020,Further information pending
 EY484,Etihad,Abu Dhabi,Brisbane,11-March-2020,12-March-2020,Further information pending
 QF 52,Singapore Airlines,Singapore,Brisbane,11-March-2020,12-March-2020,Further information pending
