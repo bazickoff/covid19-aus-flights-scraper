@@ -1,8 +1,8 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows,reporting_state
 JAL,JL771,Tokyo,Sydney,Sun 22 March 2020,Sun 05 April 2020,TBC,NSW
 Garuda Air,GA712,Jakarta,Sydney,Sun 22 March 2020,Sun 05 April 2020,"5, 6, 7, 8, 9",NSW
-Emirates,QF7406,Dubai,Melbourne,Sun 22 March 2020,Sun 05 April 2020,"79,80,81,82,83",ACT
-Qantas,BA814,Melbourne,Canberra,Sun 22 March 2020,Sun 05 April 2020,"22,23,24,25,26",ACT
+Emirates,QF8406,Dubai,Melbourne,Sun 22 March 2020,Sun 05 April 2020,"79,80,81,82,83",ACT
+Qantas,QF814,Melbourne,Canberra,Sun 22 March 2020,Sun 05 April 2020,"22,23,24,25,26",ACT
 Qantas,QF74,San Francisco,Sydney,Sat 21 March 2020,Sat 04 April 2020,TBC,NSW
 United Airlines,UA101,Houston,Sydney,Sat 21 March 2020,Sat 04 April 2020,"5, 6, 7, 8, 9",NSW
 Qantas,QF2,London,Sydney(via Singapore),Sat 21 March 2020,Sat 04 April 2020,"59, 60, 61, 62, 63",NSW
