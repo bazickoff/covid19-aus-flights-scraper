@@ -75,9 +75,8 @@ class Scraper:
 
     def get_act_flight_data(self):
         target_url = 'https://www.health.act.gov.au/about-our-health-system/novel-coronavirus-covid-19/known-flights-act-confirmed-cases-covid-19'
-        inner_content = self.get_html(target_url).find(
-            'div', class_="region region-content")
-        table = inner_content.find('table')
+        inner_content = self.get_html(target_url).find(text="Known flights")
+        table = inner_content.findNext('table')
         return self.get_data(table)
 
     def get_static_data(self, state):
