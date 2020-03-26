@@ -39,6 +39,10 @@ The data is sourced from various health departments in each state of Australia:
 
 As of 14th March 2020, the Victorian Department of Health and Human Services (Vic DHHS) has stopped reporting official location history for each suspected case. As such, data of flights for each confirmed case will not be available and require manual updates.
 
+### Note for Queensland Data
+
+As of 24th March 2020, the Queensland Department of Health have stop reporting close contact rows.
+
 # API Layer
 
 The API layer will be available soon!
