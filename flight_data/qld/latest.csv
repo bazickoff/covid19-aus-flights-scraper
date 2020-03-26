@@ -40,13 +40,11 @@ QF922,Qantas,Sydney,Cairns,18-Mar-20
 SQ245,Singapore Airlines,Singapore,Brisbane,18-Mar-20
 VA931,Virgin Airlines,Sydney,Brisbane,18-Mar-20
 AC53,Air Canada,Vancouver,Brisbane,17-Mar-20
-BI9,"Royal Brunei 
-  Airlines",Brunei,Brisbane,17-Mar-20
+BI9,Royal Brunei  Airlines,Brunei,Brisbane,17-Mar-20
 EK430,Emirates,Dubai,Brisbane,17-Mar-20
 EK434,Emirates,Dubai,Brisbane,17-Mar-20
 EY484,Etihad,Abu Dhabi,Brisbane,17-Mar-20
-LX9018/ SQ235,"Swiss Air/Singapore
-  Airlines",Singapore,Brisbane,17-Mar-20
+LX9018/ SQ235,Swiss Air/Singapore Airlines,Singapore,Brisbane,17-Mar-20
 QF16,Qantas,Los Angeles,Brisbane,17-Mar-20
 QF52,Qantas,Singapore,Brisbane,17-Mar-20
 QF594,Qantas,Perth,Brisbane,17-Mar-20
@@ -87,8 +85,7 @@ QF16,Qantas,Los Angeles,Brisbane,14-Mar-20
 QF52,Qantas,Singapore,Brisbane,14-Mar-20
 QF74,Qantas,San Francisco,Brisbane,14-Mar-20
 SQ245,Singapore Airlines,Singapore,Brisbane,14-Mar-20
-"EK430/
-  QF8430",Emirates,Dubai,Brisbane,13-Mar-20
+EK430/ QF8430,Emirates,Dubai,Brisbane,13-Mar-20
 EK434,Emirates,Dubai,Brisbane,13-Mar-20
 JQ12,Jetstar,Tokyo,Brisbane,13-Mar-20
 QF52,Qantas,Singapore,Brisbane,13-Mar-20
@@ -97,8 +94,7 @@ QF632,Qantas,Melbourne,Brisbane,13-Mar-20
 QF971,Qantas,Townsville,Brisbane,13-Mar-20
 VA799,Virgin Airlines,Brisbane,Cairns,13-Mar-20
 EY484,Etihad,Abu Dhabi,Brisbane,12-Mar-20
-"QF
-  52",Singapore Airlines,Singapore,Brisbane,12-Mar-20
+QF 52,Singapore Airlines,Singapore,Brisbane,12-Mar-20
 QF1786,Qantas,Brisbane,Townsville,12-Mar-20
 QF556,Qantas,Sydney,Brisbane,12-Mar-20
 QF650,Qantas,Perth,Brisbane,12-Mar-20
