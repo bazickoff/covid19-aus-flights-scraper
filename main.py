@@ -52,7 +52,7 @@ class Scraper:
 
     def get_qld_flight_data(self):
         target_url = "https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts"
-        table = self.get_html(target_url).find('table', id="table94436")
+        table = self.get_html(target_url).find('table', id="table51413")
         return self.get_data(table)
 
     def get_nt_flight_data(self):
@@ -119,7 +119,16 @@ class Scraper:
                     '\xa0', ',').replace('\r\n', '&')
 
                 airline = row[1]
-                [origin, destination] = row[2].split('/')
+                flight_path = row[2].split('/')
+                # print(flight_path)
+                if(len(flight_path) == 3):
+                    origin = f'{flight_path[0]} (via {flight_path[1]})'
+                    destination = f'{flight_path[2]}'
+                else:
+                    if ' to ' in row[2]:
+                        flight_path = row[2].split(' to ')
+                    origin = flight_path[0]
+                    destination = flight_path[1]
 
                 flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
                           'close_contact_rows': close_contact_rows, 'reporting_state': 'NSW', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
@@ -173,9 +182,11 @@ class Scraper:
             if(row[0] != ''):
                 flight_number = row[0]
                 airline = row[1]
-                arrival_date = datetime.strptime(row[4], '%d-%B-%Y')
+                date = row[4].split('-')
+                arrival_date = datetime.strptime(
+                    row[4], '%d-%b-%y')
                 symptoms_onset_date = arrival_date + timedelta(days=14)
-                close_contact_rows = row[6]
+                close_contact_rows = ''
 
                 origin, destination = row[2], row[3]
 
