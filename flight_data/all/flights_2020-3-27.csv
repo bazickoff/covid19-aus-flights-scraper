@@ -1,5 +1,5 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows,reporting_state
-Qantas,QF2,London to Darwin,11:55pm,Thu 26 March 2020,Thu 09 April 2020,,NT
+Qantas,QF2,London,Darwin,Thu 26 March 2020,Thu 09 April 2020,,NT
 Virgin Airlines,VA943,Sydney,Brisbane,Tue 24 March 2020,Tue 07 April 2020,,QLD
 Virgin,VA935,Sydney,Brisbane,Tue 24 March 2020,Tue 07 April 2020,,QLD
 Virgin,VA733,Melbourne,Gold Coast,Tue 24 March 2020,Tue 07 April 2020,,QLD
@@ -9,7 +9,7 @@ Jetstar,JQ408,Sydney,Gold Coast,Mon 23 March 2020,Mon 06 April 2020,,QLD
 Emirates,EK054,Dubai,Brisbane,Mon 23 March 2020,Mon 06 April 2020,,QLD
 Emirates,EK412,Dubai,Sydney,Mon 23 March 2020,Mon 06 April 2020,,QLD
 Emirates,EY450,Adu Dhabi,Sydney,Mon 23 March 2020,Mon 06 April 2020,,QLD
-Qantas,QF840,Sydney to Darwin,1:05pm,Mon 23 March 2020,Mon 06 April 2020,,NT
+Qantas,QF840,Sydney,Darwin,Mon 23 March 2020,Mon 06 April 2020,,NT
 Jetstar,JQ415,Gold Coast,Sydney,Sun 22 March 2020,Sun 05 April 2020,"13,    14, 15, 16, 17,",NSW
 Qantas,QF1419,Sydney,Canberra,Sun 22 March 2020,Sun 05 April 2020,"4, 5,    6, 7, 8",NSW
 Virgin,VA982,Brisbane,Sydney,Sun 22 March 2020,Sun 05 April 2020,"20, 21, 22, 23, 24",NSW
@@ -21,7 +21,7 @@ Air Canada,AC033,Vancouver,Brisbane,Sun 22 March 2020,Sun 05 April 2020,,QLD
 China Airlines,CI53,Taipei,Brisbane,Sun 22 March 2020,Sun 05 April 2020,,QLD
 Emirates,EK434,Dubai,Brisbane,Sun 22 March 2020,Sun 05 April 2020,,QLD
 Qantas,QF52,Singapore,Brisbane,Sun 22 March 2020,Sun 05 April 2020,,QLD
-Jetstar,JQ664,Melbourne to Yulara,10:36am,Sun 22 March 2020,Sun 05 April 2020,,NT
+Jetstar,JQ664,Melbourne,Yulara,Sun 22 March 2020,Sun 05 April 2020,,NT
 Emirates,QF8406,Dubai,Melbourne,Sun 22 March 2020,Sun 05 April 2020,"79,80,81,82,83",ACT
 Qantas,QF814,Melbourne,Canberra,Sun 22 March 2020,Sun 05 April 2020,"22,23,24,25,26",ACT
 Emirates,EK412/QF8412,Dubai,Melbourne,Sun 22 March 2020,Sun 05 April 2020,"76,77,78,79,80",ACT
@@ -38,7 +38,7 @@ Emirates,EK412,Dubai,Sydney,Sat 21 March 2020,Sat 04 April 2020,,QLD
 Emirates,EK434,Dubai,Brisbane,Sat 21 March 2020,Sat 04 April 2020,,QLD
 Etihad,EY484,Abu Dhabi,Brisbane,Sat 21 March 2020,Sat 04 April 2020,,QLD
 Virgin Australia,VA08,Los Angeles,Brisbane,Sat 21 March 2020,Sat 04 April 2020,,QLD
-Silk Air,MI801,Singapore to Darwin,3:02pm,Sat 21 March 2020,Sat 04 April 2020,,NT
+Silk Air,MI801,Singapore,Darwin,Sat 21 March 2020,Sat 04 April 2020,,NT
 Jetstar,JQ504,Melbourne,Sydney,Fri 20 March 2020,Fri 03 April 2020,"20, 21, 22, 23, 24, 25, 26",NSW
 Qantas,QF556,Sydney,Brisbane,Fri 20 March 2020,Fri 03 April 2020,"11,    12, 13, 14, 15",NSW
 Qantas,QF2213,Sydney,Albury,Fri 20 March 2020,Fri 03 April 2020,"8, 9, 10, 11, 12",NSW
@@ -59,7 +59,7 @@ Emirates,EK434,Dubai,Brisbane,Fri 20 March 2020,Fri 03 April 2020,,QLD
 Qantas,QF10,Heathrow,Perth,Fri 20 March 2020,Fri 03 April 2020,,QLD
 Qantas,QF16,Los Angeles,Brisbane,Fri 20 March 2020,Fri 03 April 2020,,QLD
 Singapore airlines,SQ255,Singapore,Brisbane,Fri 20 March 2020,Fri 03 April 2020,,QLD
-Qantas,QF840,Sydney to Darwin,1pm,Fri 20 March 2020,Fri 03 April 2020,,NT
+Qantas,QF840,Sydney,Darwin,Fri 20 March 2020,Fri 03 April 2020,,NT
 Qantas,QF1467,Sydney,Canberra,Fri 20 March 2020,Fri 03 April 2020,"10,11,12,13,14",ACT
 British Airways,BA15,London (via Singapore),Sydney,Fri 20 March 2020,Fri 03 April 2020,"47,48,49,50,51",ACT
 Qantas,QF412,Melbourne,Sydney,Thu 19 March 2020,Thu 02 April 2020,"22, 23, 24, 25, 26, 27",NSW
@@ -119,9 +119,9 @@ Qantas,QF52,Singapore,Brisbane,Thu 19 March 2020,Thu 02 April 2020,,QLD
 Virgin Australia,VA08,Los Angeles,Brisbane,Thu 19 March 2020,Thu 02 April 2020,,QLD
 Virgin Australia,VA7123,Abu Dhabi,Brisbane,Thu 19 March 2020,Thu 02 April 2020,,QLD
 Virgin Australia,VA8,Los Angeles,Brisbane,Thu 19 March 2020,Thu 02 April 2020,,QLD
-Jetstar,JQ82,Denpasar to Darwin,5am,Thu 19 March 2020,Thu 02 April 2020,,NT
-Qantas,QF824,Brisbane to Darwin,12:30pm,Thu 19 March 2020,Thu 02 April 2020,,NT
-Jetstar,JQ672,Sydney to Darwin,11:30pm,Thu 19 March 2020,Thu 02 April 2020,,NT
+Jetstar,JQ82,Denpasar,Darwin,Thu 19 March 2020,Thu 02 April 2020,,NT
+Qantas,QF824,Brisbane,Darwin,Thu 19 March 2020,Thu 02 April 2020,,NT
+Jetstar,JQ672,Sydney,Darwin,Thu 19 March 2020,Thu 02 April 2020,,NT
 Etihad,EY450,Abu Dhabi,Sydney,Thu 19 March 2020,Thu 02 April 2020,"15,16,17,18,19",ACT
 Virgin Australia,VA640,Sydney,Canberra,Thu 19 March 2020,Thu 02 April 2020,"10,11,12,13,14",ACT
 Singapore Airlines,SQ288,Singapore (via Sydney),Canberra,Thu 19 March 2020,Thu 02 April 2020,"30,31,32,33,34",ACT
