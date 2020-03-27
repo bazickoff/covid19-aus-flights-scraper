@@ -199,8 +199,7 @@ class Scraper:
             arrival_date = datetime.strptime(row[0], '%d %B %Y')
             symptoms_onset_date = arrival_date + timedelta(days=14)
             [flight_number, airline] = row[1].split(' - ')
-            origin = row[2]
-            destination = row[3]
+            [origin, destination] = row[2].split(' to ')
 
             flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
                       'close_contact_rows': close_contact_rows, 'reporting_state': 'NT', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
