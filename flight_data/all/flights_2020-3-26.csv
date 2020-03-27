@@ -6,11 +6,13 @@ JAL,JL771,Tokyo,Sydney,Sun 22 March 2020,Sun 05 April 2020,TBC,NSW
 Garuda Air,GA712,Jakarta,Sydney,Sun 22 March 2020,Sun 05 April 2020,"5, 6, 7, 8, 9",NSW
 Qantas,QF2,London (via Singapore),Sydney,Sun 22 March 2020,Sun 05 April 2020,"19, 20, 21, 22, 23",NSW
 Qatar,QR908,Doha,Sydney,Sun 22 March 2020,Sun 05 April 2020,"15, 16, 17, 18, 19",NSW
-Air Canada,AC033,Vancouver,Brisbane,Sun 22 March 2020,Sun 05 April 2020,,QLD
+Air Canada,AC035,Vancouver,Brisbane,Sun 22 March 2020,Sun 05 April 2020,,QLD
 China Airlines,CI53,Taipei,Brisbane,Sun 22 March 2020,Sun 05 April 2020,,QLD
 Qantas,QF52,Singapore,Brisbane,Sun 22 March 2020,Sun 05 April 2020,,QLD
 Emirates,QF8406,Dubai,Melbourne,Sun 22 March 2020,Sun 05 April 2020,"79,80,81,82,83",ACT
 Qantas,QF814,Melbourne,Canberra,Sun 22 March 2020,Sun 05 April 2020,"22,23,24,25,26",ACT
+Emirates,EK412/QF8412,Dubai,Melbourne,Sun 22 March 2020,Sun 05 April 2020,"76,77,78,79,80",ACT
+Qantas,QF1419,Sydney,Canberra,Sun 22 March 2020,Sun 05 April 2020,"16,17,18,19,20",ACT
 Qantas,QF74,San Francisco,Sydney,Sat 21 March 2020,Sat 04 April 2020,"42, 43, 44, 45, 46",NSW
 United Airlines,UA101,Houston,Sydney,Sat 21 March 2020,Sat 04 April 2020,"5, 6, 7, 8, 9",NSW
 Qantas,QF2,London,Sydney(via Singapore),Sat 21 March 2020,Sat 04 April 2020,"59, 60, 61, 62, 63",NSW
@@ -146,13 +148,11 @@ QANTAS,QF769,Melbourne,Perth,Tue 17 March 2020,Tue 31 March 2020,"53, 54, 55, 56
 Emirates,EK0420,Dubai,Perth,Tue 17 March 2020,Tue 31 March 2020,"71, 72, 73, 74, 75",WA
 QANTAS,QF769,Melbourne,Perth,Tue 17 March 2020,Tue 31 March 2020,"53, 54, 55, 56, 57",WA
 Air Canada,AC53,Vancouver,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
-"Royal Brunei 
-  Airlines",BI9,Brunei,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
+Royal Brunei  Airlines,BI9,Brunei,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
 Emirates,EK430,Dubai,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
 Emirates,EK434,Dubai,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
 Etihad,EY484,Abu Dhabi,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
-"Swiss Air/Singapore
-  Airlines",LX9018/ SQ235,Singapore,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
+Swiss Air/Singapore Airlines,LX9018/ SQ235,Singapore,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
 Qantas,QF16,Los Angeles,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
 Qantas,QF52,Singapore,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
 Qantas,QF594,Perth,Brisbane,Tue 17 March 2020,Tue 31 March 2020,,QLD
@@ -296,8 +296,7 @@ Air New Zealand,NZ191,Auckland,Adelaide,Fri 13 March 2020,Fri 27 March 2020,,SA
 Qantas,QF2701,Adelaide,Whyalla,Fri 13 March 2020,Fri 27 March 2020,,SA
 Emirates,EK0420,Dubai,Perth,Fri 13 March 2020,Fri 27 March 2020,"62, 63, 64, 65, 66",WA
 Qatar Airways,QR900,Doha,PerthArriving 18:25,Fri 13 March 2020,Fri 27 March 2020,"78, 79, 80, 81, 82, 83",WA
-Emirates,"EK430/
-  QF8430",Dubai,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
+Emirates,EK430/ QF8430,Dubai,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
 Emirates,EK434,Dubai,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
 Jetstar,JQ12,Tokyo,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
 Qantas,QF52,Singapore,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
@@ -319,11 +318,11 @@ Singapore Airlines,SQ225,Singapore,Perth,Thu 12 March 2020,Thu 26 March 2020,"42
 QANTAS,QF10,London,Perth,Thu 12 March 2020,Thu 26 March 2020,"38, 39, 40, 41, 42",WA
 QANTAS,QF769,Melbourne,Perth,Thu 12 March 2020,Thu 26 March 2020,"50, 51, 52, 53, 54",WA
 Etihad,EY484,Abu Dhabi,Brisbane,Thu 12 March 2020,Thu 26 March 2020,,QLD
-Singapore Airlines,"QF
-  52",Singapore,Brisbane,Thu 12 March 2020,Thu 26 March 2020,,QLD
+Singapore Airlines,QF 52,Singapore,Brisbane,Thu 12 March 2020,Thu 26 March 2020,,QLD
 Qantas,QF1786,Brisbane,Townsville,Thu 12 March 2020,Thu 26 March 2020,,QLD
 Qantas,QF556,Sydney,Brisbane,Thu 12 March 2020,Thu 26 March 2020,,QLD
 Qantas,QF650,Perth,Brisbane,Thu 12 March 2020,Thu 26 March 2020,,QLD
+Qantas,QF42,Jakarta,Sydney,Thu 12 March 2020,Thu 26 March 2020,"90,91,92,93,94",ACT
 American Airlines,AA0073,Los Angeles,Sydney,Wed 11 March 2020,Wed 25 March 2020,"20, 21, 22, 2335, 36, 37, 38, 39",NSW
 Qantas,QF8,Dallas,Sydney,Wed 11 March 2020,Wed 25 March 2020,"3, 4, 511, 12, 13, 14, 1548, 4973, 74, 75, 76, 77",NSW
 Virgin Australia,VA2,Los Angeles,Sydney,Wed 11 March 2020,Wed 25 March 2020,"2, 3, 4, 5, 6",NSW
@@ -333,7 +332,6 @@ Qantas,QF424,Melbourne,Sydney,Wed 11 March 2020,Wed 25 March 2020,"1, 2, 3",NSW
 Qantas,QF12,Los Angeles,Sydney,Wed 11 March 2020,Wed 25 March 2020,,SA
 Qantas,QF741,Sydney,Adelaide,Wed 11 March 2020,Wed 25 March 2020,,SA
 Singapore Airlines,SQ225,Singapore,Perth,Wed 11 March 2020,Wed 25 March 2020,"45, 46, 47, 48, 49",WA
-Qantas,QF42,Jakarta,Sydney,Wed 11 March 2020,Wed 25 March 2020,"90,91,92,93,94",ACT
 Qantas,QF40,Sapporo New Chitose,Sydney,Tue 10 March 2020,Tue 24 March 2020,"36, 37, 38, 39",NSW
 Emirates,EK412QF8412,Dubai,Sydney,Tue 10 March 2020,Tue 24 March 2020,"56, 57, 58, 59, 60",NSW
 Etihad,EY450,Abu Dhabi,Sydney,Tue 10 March 2020,Tue 24 March 2020,"35, 36, 37, 38, 39",NSW
