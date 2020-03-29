@@ -58,7 +58,7 @@ class Scraper:
     def get_nt_flight_data(self):
         target_url = 'https://coronavirus.nt.gov.au/home/homepage-news/contact-tracing'
         table = self.get_html(target_url).find(
-            'table', class_="au-table au-table--striped table")
+            'table', class_="au-table au-table--striped")
         rows = []
         header = table.find_all('thead')[0]
         headerow = [td.get_text(strip=True)
