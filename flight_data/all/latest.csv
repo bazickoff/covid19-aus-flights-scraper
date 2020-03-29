@@ -315,14 +315,6 @@ Qantas,QF582,Perth,Sydney,Sat 14 March 2020,Sat 28 March 2020,"1, 2, 3, 4",NSW
 Virgin Australia,VA213,Melbourne,Adelaide,Sat 14 March 2020,Sat 28 March 2020,,SA
 QANTAS,QF10,London,Perth,Sat 14 March 2020,Sat 28 March 2020,"38, 39, 40, 41, 42",WA
 Emirates,EK0420,Dubai,Perth,Sat 14 March 2020,Sat 28 March 2020,"16, 17, 18, 19, 20, 21",WA
-Delta Airlines,DL2272,Salt Lake City,Los Angeles,Sat 14 March 2020,Sat 28 March 2020,,QLD
-Emirates,EK010,London,Dubai,Sat 14 March 2020,Sat 28 March 2020,,QLD
-Etihad,EY450,Abu Dhabi,Sydney,Sat 14 March 2020,Sat 28 March 2020,,QLD
-Hawaiian Airlines,HA443,Honalulu,Brisbane,Sat 14 March 2020,Sat 28 March 2020,,QLD
-Qantas,QF126,Auckland,Brisbane,Sat 14 March 2020,Sat 28 March 2020,,QLD
-Qantas,QF16,Los Angeles,Brisbane,Sat 14 March 2020,Sat 28 March 2020,,QLD
-Qantas,QF52,Singapore,Brisbane,Sat 14 March 2020,Sat 28 March 2020,,QLD
-Singapore Airlines,SQ245,Singapore,Brisbane,Sat 14 March 2020,Sat 28 March 2020,,QLD
 Garuda,GA712,Jakarta,Sydney,Sat 14 March 2020,Sat 28 March 2020,"40,41,42,43,44",ACT
 Qatar,QR908,Doha,Sydney,Fri 13 March 2020,Fri 27 March 2020,TBC,NSW
 Qantas,QF434,Melbourne,Sydney,Fri 13 March 2020,Fri 27 March 2020,"1, 2, 3, 4",NSW
@@ -338,16 +330,6 @@ Air New Zealand,NZ191,Auckland,Adelaide,Fri 13 March 2020,Fri 27 March 2020,,SA
 Qantas,QF2701,Adelaide,Whyalla,Fri 13 March 2020,Fri 27 March 2020,,SA
 Emirates,EK0420,Dubai,Perth,Fri 13 March 2020,Fri 27 March 2020,"8, 9, 10, 11, 12 & 62, 63, 64, 65, 66",WA
 Qatar Airways,QR900,Doha,PerthArriving 18:25,Fri 13 March 2020,Fri 27 March 2020,"40, 41, 42, 43, 44 & 78, 79, 80, 81, 82, 83",WA
-Qantas,QF619,Brisbane,Melbourne,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Qantas,QF632,Melbourne,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Qantas,QF971,Townsville,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Virgin Airlines,VA799,Brisbane,Cairns,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Emirates,EK430 / QF8430,Dubai,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Emirates,EK434,Dubai,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Jetstar,JQ12,Tokyo,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Qantas,QF2,Heathrow,Singapore,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Qantas,QF52,Singapore,Brisbane,Fri 13 March 2020,Fri 27 March 2020,,QLD
-Qatar Airways,QR60,Munich,Doha,Fri 13 March 2020,Fri 27 March 2020,,QLD
 Jetstar,JQ456,Sydney,Ballina,Thu 12 March 2020,Thu 26 March 2020,"5, 6, 7, 8, 9",NSW
 Virgin,VA838,Sydney,Melbourne,Thu 12 March 2020,Thu 26 March 2020,"9, 10, 11, 12, 13",NSW
 Jetstar,JQ452,Adelaide,Gold Coast,Thu 12 March 2020,Thu 26 March 2020,,SA
