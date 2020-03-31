@@ -1,5 +1,6 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows,reporting_state
 Qantas,QF604,Melbourne,Brisbane,Fri 27 March 2020,Fri 10 April 2020,,QLD
+Qantas,QF840,Sydney,Darwin,Fri 27 March 2020,Fri 10 April 2020,,NT
 Qantas,QF2,London,Darwin,Thu 26 March 2020,Thu 09 April 2020,,NT
 Qantas,QF566,Perth,Sydney,Wed 25 March 2020,Wed 08 April 2020,"27, 28, 29, 30",NSW
 Qantas,QF759,Sydney,Adelaide,Wed 25 March 2020,Wed 08 April 2020,,SA
