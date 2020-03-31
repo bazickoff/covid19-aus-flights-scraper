@@ -206,7 +206,12 @@ class Scraper:
             data.append(flight)
 
         for row in act_flight_data[1:]:
-            arrival_date = datetime.strptime(f'{row[4]}-2020', '%d-%b-%Y')
+            date = row[4].split('-')
+            if(len(date) == 2):
+                arrival_date = datetime.strptime(f'{row[4]}-2020', '%d-%b-%Y')
+            else:
+                arrival_date = datetime.strptime(f'{row[4]}-2020', '%d %B-%Y')
+
             symptoms_onset_date = arrival_date + timedelta(days=14)
 
             flight_number = row[0]
