@@ -52,7 +52,7 @@ class Scraper:
 
     def get_qld_flight_data(self):
         target_url = "https://www.qld.gov.au/health/conditions/health-alerts/coronavirus-covid-19/current-status/current-status-and-contact-tracing-alerts"
-        table = self.get_html(target_url).find('table', id="table51413")
+        table = self.get_html(target_url).find('table', id="table-flights")
         return self.get_data(table)
 
     def get_nt_flight_data(self):
