@@ -1,49 +1,59 @@
 Flight Number,Airline,Origin,Destination,Date of arrival,Close Contact Rows
 QF604,Qantas,Melbourne,Brisbane,27-Mar-20,Further information pending
+QF652,Qantas,Perth,Brisbane,26-Mar-20,Further information pending
+QF520,Qantas,Sydney,Brisbane,26-Mar-20,"15,16,17,18,19"
 QF508,Qantas,Sydney,Brisbane,25-Mar-20,"20,21,22,23,24,25,26"
 QF530,Qantas,Sydney,Brisbane,25-Mar-20,Further information pending
+QF1792,Qantas,Brisbane,Townsville,25-Mar-20,Further information pending
 EK434,Emirates,Dubai,Brisbane,24-Mar-20,"73,74,75,76,77"
-VA733,Virgin,Melbourne,Gold Coast,24-Mar-20,"13,14,15,16,17"
-VA935,Virgin,Sydney,Brisbane,24-Mar-20,"17, 18, 19, 20, 21"
-VA943,Virgin Airlines,Sydney,Brisbane,24-Mar-20,"16,17,18,19,20"
+VA733,Virgin Australia,Melbourne,Gold Coast,24-Mar-20,"13,14,15,16,17"
+VA935,Virgin Australia,Sydney,Brisbane,24-Mar-20,"17, 18, 19, 20, 21"
+VA943,Virgin Australia,Sydney,Brisbane,24-Mar-20,"16,17,18,19,20"
 QF594,Qantas,Perth,Brisbane,24-Mar-20,Further information pending
+VA909,Virgin Australia,Sydney,Brisbane,24-Mar-20,Further information pending
+QF2356,Qantas,Brisbane,Rockhampton,24-Mar-20,"1,2,3,4,5"
 EK054,Emirates,Dubai,Brisbane,23-Mar-20,"73,74,75,76,77"
 EK412,Emirates,Dubai,Sydney,23-Mar-20,Further information pending
 EY450,Emirates,Adu Dhabi,Sydney,23-Mar-20,"40,41,42,43,44"
 JQ408,Jetstar,Sydney,Gold Coast,23-Mar-20,Further information pending
 QF600,Qantas,Melbourne,Brisbane,23-Mar-20,Further information pending
+QF594,Qantas,Perth,Brisbane,23-Mar-20,"14,15,16,17,18"
+JQ916,Jetstar,Melbourne,Townsville,23-Mar-20,"1,2,3,4"
 AC033,Air Canada,Vancouver,Brisbane,22-Mar-20,Further information pending
 CI53,China Airlines,Taipei,Brisbane,22-Mar-20,"30,31,32,33,34"
 EK434,Emirates,Dubai,Brisbane,22-Mar-20,"45,46,47,48,49"
 JQ912,Jetstar,Sydney,Townsville,22-Mar-20,"5,6,7,8,9"
 QF52,Qantas,Singapore,Brisbane,22-Mar-20,Further information pending
-QF922,Sydney,Cairns,Qantas,22-Mar-20,Further information pending
-VA1118,Virgin,Proserpine,Brisbane,22-Mar-20,Further information pending
-VA570,Virgin,Perth,Sydney,22-Mar-20,"6,7,8,9,10"
-VA935,Virgin,Sydney,Brisbane,22-Mar-20,"7,8,9,10,11"
+QF922,Qantas,Sydney,Cairns,22-Mar-20,Further information pending
+VA1118,Virgin Australia,Proserpine,Brisbane,22-Mar-20,Further information pending
+VA570,Virgin Australia,Perth,Sydney,22-Mar-20,"6,7,8,9,10"
+VA935,Virgin Australia,Sydney,Brisbane,22-Mar-20,"7,8,9,10,11"
 QF556,Qantas,Sydney,Brisbane,22-Mar-20,"11,12,13,14,15"
-EK5702/QF702,Qantas,Melbourne,Cairns,22-Mar-20,Further information pending
+QF702,Qantas,Melbourne,Cairns,22-Mar-20,Further information pending
+EK5702,Emirates,Melbourne,Cairns,22-Mar-20,Further information pending
 EK412,Emirates,Dubai,Sydney,21-Mar-20,"56, 57, 58, 59,60"
 EK434,Emirates,Dubai,Brisbane,21-Mar-20,"70,71,72,73,74"
 EK434,Emirates,Dubai,Brisbane,21-Mar-20,"47,48,49,50,51"
 EY484,Etihad,Abu Dhabi,Brisbane,21-Mar-20,Further information pending
-QF0970,Qantas,Brisbane,Townsville,21-Mar-20,Further information pending
+QF970,Qantas,Brisbane,Townsville,21-Mar-20,Further information pending
 QF512,Qantas,Sydney,Brisbane,21-Mar-20,"12, 13, 14, 15, 16"
 QF654,Qantas,Perth,Brisbane,21-Mar-20,"27,28,29,30"
-VA08,Virgin Australia,Los Angeles,Brisbane,21-Mar-20,"14,15,16,17,18"
-VA523,Virgin,Sydney,Gold Coast,21-Mar-20,Further information pending
-VA925,Virgin,Sydney,Brisbane,21-Mar-20,"1,2,3"
-EK004,Emirates,London,Dubai,20-Mar-20,Further information pending
-EK0434,Emirates,Dubai,Brisbane,20-Mar-20,
+VA8,Virgin Australia,Los Angeles,Brisbane,21-Mar-20,"14,15,16,17,18"
+VA523,Virgin Australia,Sydney,Gold Coast,21-Mar-20,Further information pending
+VA925,Virgin Australia,Sydney,Brisbane,21-Mar-20,"1,2,3"
+VA1392,Virgin Australia,Brisbane,Adelaide,21-Mar-20,to be determined
+EK4,Emirates,London,Dubai,20-Mar-20,Further information pending
 EK434,Emirates,Dubai,Brisbane,20-Mar-20,"47,48,49,50,51"
 QF10,Qantas,Heathrow,Perth,20-Mar-20,Further information pending
 QF16,Qantas,Los Angeles,Brisbane,20-Mar-20,"54,55,56,57,58"
 SQ255,Singapore airlines,Singapore,Brisbane,20-Mar-20,"40,41,42,43,44"
-VA1115,Virgin,Brisbane,Proserpine,20-Mar-20,Further information pending
-VA1393,Virgin,Adelaide,Brisbane,20-Mar-20,Further information pending
-VA1555,Virign Airlines,Sydney,Hervey Bay,20-Mar-20,Further information pending
-VA353,Virgin,Melbourne,Brisbane,20-Mar-20,"16,17,18,19,20,"
-VA917,Virgin,Sydney,Brisbane,20-Mar-20,Further information pending
+VA1115,Virgin Australia,Brisbane,Proserpine,20-Mar-20,Further information pending
+VA1393,Virgin Australia,Adelaide,Brisbane,20-Mar-20,Further information pending
+VA1555,Virgin Australia,Sydney,Hervey Bay,20-Mar-20,Further information pending
+VA353,Virgin Australia,Melbourne,Brisbane,20-Mar-20,"16,17,18,19,20,"
+VA917,Virgin Australia,Sydney,Brisbane,20-Mar-20,Further information pending
+QF1760,Qantas,Brisbane,Cairns,20-Mar-20,Further information pending
+JQ563,Jetstar,Brisbane,Melbourne,20-Mar-20,"10,11,12,13,14"
 EK412,Emirates,Dubai,Sydney,19-Mar-20,"46,47,48,49,50"
 EK434,Emirates,Dubai,Brisbane,19-Mar-20,Further information pending
 EY484,Etihad,Abu Dhabi,Brisbane,19-Mar-20,"35, 36, 37, 38, 39, 42, 43, 44, 45"
@@ -58,42 +68,42 @@ QF520,Qantas,Sydney,Brisbane,19-Mar-20,"14, 15, 16, 17, 18"
 QF524,Qantas,Sydney,Brisbane,19-Mar-20,"12,13,14,15,16,17,18,19"
 QF530,Qantas,Sydney,Brisbane,19-Mar-20,Further information pending
 QF538,Qantas,Sydney,Brisbane,19-Mar-20,"9,10,11,12,13"
-QF540,Qantas,Sydney,Brisbane,19-Mar-20,"2,3"
+QF540,Qantas,Sydney,Brisbane,19-Mar-20,"1,2,3"
 QF550,Qantas,Sydney,Brisbane,19-Mar-20,1
 QF556,Qantas,Sydney,Brisbane,19-Mar-20,"10,11,12,13,14,18,19,20,21,22"
 QF780,Qantas,Brisbane,Cairns,19-Mar-20,Further information pending
 TT604,Tiger Airlines,Sydney,Gold Coast,19-Mar-20,"15,16,17,18,19"
-VA08,Virgin Australia,Los Angeles,Brisbane,19-Mar-20,"37,38,39,40,41"
-VA1243,Virgin,Brisbane,Rockhampton,19-Mar-20,"18, 19, 20, 21, 22"
-VA1249,Virgin,Brisbane,Rockhampton,19-Mar-20,"20, 21, 22"
-VA1405,Virgin,Adelaide,Brisbane,19-Mar-20,Further information pending
-VA379,Virgin Airlines,Brisbane,Townsville,19-Mar-20,"22, 23, 24, 25, 26"
-VA543,Virgin Airlines,Sydney,Gold Coast,19-Mar-20,"11, 12, 13, 14, 15"
+VA8,Virgin Australia,Los Angeles,Brisbane,19-Mar-20,"37,38,39,40,41"
+VA1243,Virgin Australia,Brisbane,Rockhampton,19-Mar-20,"18, 19, 20, 21, 22"
+VA1249,Virgin Australia,Brisbane,Rockhampton,19-Mar-20,"20, 21, 22"
+VA1405,Virgin Australia,Adelaide,Brisbane,19-Mar-20,Further information pending
+VA379,Virgin Australia,Brisbane,Townsville,19-Mar-20,"22, 23, 24, 25, 26"
+VA543,Virgin Australia,Sydney,Gold Coast,19-Mar-20,"11, 12, 13, 14, 15"
 VA7123,Virgin Australia,Abu Dhabi,Brisbane,19-Mar-20,Further information pending
 VA8,Virgin Australia,Los Angeles,Brisbane,19-Mar-20,Further information pending
-VA932,Virgin,Sydeny,Brisbane,19-Mar-20,Further information pending
-VA935,Virgin Airlines,Sydney,Brisbane,19-Mar-20,"13,14,15,16,17"
-VA935,Virgin Airlines,Sydney,Brisbane,19-Mar-20,"13,14,15,16,17"
-VA947,Virgin Airlines,Sydney,Brisbane,19-Mar-20,"24, 25, 26, 27, 28"
-VA951,Virgin Airlines,Sydney,Brisbane,19-Mar-20,23 24 25 26 27
-VA957,Virgin,Sydney,Brisbane,19-Mar-20,"15, 16, 17, 18, 19"
+VA932,Virgin Australia,Sydeny,Brisbane,19-Mar-20,Further information pending
+VA935,Virgin Australia,Sydney,Brisbane,19-Mar-20,"13,14,15,16,17"
+VA947,Virgin Australia,Sydney,Brisbane,19-Mar-20,"24, 25, 26, 27, 28"
+VA951,Virgin Australia,Sydney,Brisbane,19-Mar-20,23 24 25 26 27
+VA957,Virgin Australia,Sydney,Brisbane,19-Mar-20,"15, 16, 17, 18, 19"
 JQ954,Jetstar,Sydney,Cairns,19-Mar-20,"13, 14, 15, 16, 17"
 JQ989,Jetstar,Perth,Sydney,19-Mar-20,Further information pending
-VA733,Virgin,Melbourne,Gold Coast,19-Mar-20,"11, 12, 13, 14, 15"
-VA523,Virgin,Sydney,Coolangatta,19-Mar-20,"7,8,9,10,11"
+VA733,Virgin Australia,Melbourne,Gold Coast,19-Mar-20,"11, 12, 13, 14, 15"
+VA523,Virgin Australia,Sydney,Coolangatta,19-Mar-20,"7,8,9,10,11"
 QF654,Qantas,Perth,Brisbane,19-Mar-20,"23,24,25,26,27"
 QF548,Qantas,Sydney,Brisbane,19-Mar-20,Further information pending
+JQ408,Jetstar,Sydney,Gold Coast,19-Mar-20,"13, 14, 15, 16, 17, 18"
+VA385,Virgin Australia,Sydney,Brisbane,19-Mar-20,"22, 23, 24, 25, 26"
+VA535,Virgin Australia,Sydney,Goldcoast,19-Mar-20,Further information pending
 EK412,Emirates,Dubai,Sydney,18-Mar-20,"84, 85, 86, 87, 88"
-EK434,Emirates,Dubai,Brisbane,18-Mar-20,Further information pending
 EK434,Emirates,Dubai,Brisbane,18-Mar-20,"83,84,85,86,87"
 EK5901,Emirates,Brisbane,Mackay,18-Mar-20,Further information pending
 EY484,Etihad,Abu Dhabi,Brisbane,18-Mar-20,"14, 25, 26, 27, 28, 29, 30"
 EY484,Etihad,Cairo,Brisbane,18-Mar-20,"7,8,9,10,11"
 JQ403,Jetstar,Gold Coast,Sydney,18-Mar-20,"24,25,26,27,28"
-JQ403,Jetstar,Gold Coast,Sydney,18-Mar-20,"24,25,26,27,28"
 JQ424,Jetstar,Sydney,Gold Coast,18-Mar-20,"6,7,8,9,10"
 JQ812,Jetstar,Sydney,Brisbane,18-Mar-20,"1, 2, 3, 4"
-QF0052,Qantas,Singapore,Brisbane,18-Mar-20,"51, 52, 53, 54, 55"
+QF52,Qantas,Singapore,Brisbane,18-Mar-20,"51, 52, 53, 54, 55"
 QF1436,Qantas,Sydney,Toowoomba,18-Mar-20,"3,4,5,6,7"
 QF16,Qantas,Los Angeles,Brisbane,18-Mar-20,Further information pending
 QF2378,Qantas,Brisbane,Hervey Bay,18-Mar-20,"6, 7, 8, 9. 10"
@@ -102,54 +112,34 @@ QF520,Qantas,Sydney,Brisbane,18-Mar-20,"17,18,19,20,21"
 QF524,Qantas,Sydney,Brisbane,18-Mar-20,"5, 6, 7, 8, 9, 15,16,17,18,19"
 QF538,Qantas,Sydney,Brisbane,18-Mar-20,"3,4,5,6,7"
 QF56,Qantas,Los Angeles,Brisbane,18-Mar-20,Further information pending
-QF8,QANTAS,Dallas,Sydney,18-Mar-20,Further information pending
+QF8,Qantas,Dallas,Sydney,18-Mar-20,Further information pending
 QF922,Qantas,Sydney,Cairns,18-Mar-20,Further information pending
 SQ245,Singapore Airlines,Singapore,Brisbane,18-Mar-20,"54,55,56,57,58"
 VA2,Virgin Australia,Los Angeles,Sydney,18-Mar-20,Further information pending
-VA931,Virgin Airlines,Sydney,Brisbane,18-Mar-20,"1, 2, 3, 4"
-VA981,Virgin,Sydney,Brisbane,18-Mar-20,Further information pending
+VA931,Virgin Australia,Sydney,Brisbane,18-Mar-20,"1, 2, 3, 4"
+VA981,Virgin Australia,Sydney,Brisbane,18-Mar-20,Further information pending
 TT612,Tiger,Sydney,Brisbane,18-Mar-20,"5, 6, 7, 8"
+QF544,Qantas,Sydney,Brisbane,18-Mar-20,Further information pending
 AC53,Air Canada,Vancouver,Brisbane,17-Mar-20,"29,30,31,32,33"
 BI9,Royal Brunei Airlines,Brunei,Brisbane,17-Mar-20,"49, 50, 51, 52, 53"
 EK406,Emirates,Dubai,Melbourne,17-Mar-20,"52, 53, 54"
 EK430,Emirates,Dubai,Brisbane,17-Mar-20,Further information pending
-EK434,Emirates,Dubai,Brisbane,17-Mar-20,"48, 49, 50, 51"
 EK434,Emirates,Dubai,Brisbane,17-Mar-20,"44, 45, 46, 47, 48,  49, 50, 51"
 EY484,Etihad,Abu Dhabi,Brisbane,17-Mar-20,Further information pending
-LX9018/SQ235,Swiss Air/Singapore Airlines,Singapore,Brisbane,17-Mar-20,"41,42,43"
+LX9018,Swiss Air,Singapore,Brisbane,17-Mar-20,"41,42,43"
+SQ235,Singapore Airlines,Singapore,Brisbane,17-Mar-20,"41,42,43"
 QF10,Qantas,Heathrow,Perth,17-Mar-20,"20, 21, 22, 23, 57, 58, 59"
 QF16,Qantas,Los Angeles,Brisbane,17-Mar-20,"1,2,3,4,5, 20,21,22,23"
 QF524,Qantas,Sydney,Brisbane,17-Mar-20,"1, 2, 3, 4, 5"
 QF594,Qantas,Perth,Brisbane,17-Mar-20,Further information pending
-QF60,Qantas,San Francisco,Brisbane,17-Mar-20,Further information pending
 QF60,Qantas,San Francisco,Brisbane,17-Mar-20,Further information pending
 QF610,Qantas,Melbourne,Brisbane,17-Mar-20,"12,13,14,15,16"
 QF98,Qantas,Hong Kong,Brisbane,17-Mar-20,Further information pending
 QR906,Qatar Airways,Doha,Sydney,17-Mar-20,"16, 17, 18, 19, 20"
 SA280,South African Airways,Johannesburg,Perth,17-Mar-20,"1,2,3"
 SQ319,Singapore Airlines,London,Singapore,17-Mar-20,"51, 52, 53, 54, 55"
-VA471,Virgin Airlines,Perth,Brisbane,17-Mar-20,"1, 2, 3"
+VA471,Virgin Australia,Perth,Brisbane,17-Mar-20,"1, 2, 3"
 VA8,Virgin Australia,Los Angeles,Brisbane,17-Mar-20,"1,2,3,4"
-VA1628,Virgin,Uluru,Sydney,17-Mar-20,"13, 14, 15, 16, 17"
-VA977,Virgin,Sydney,Brisbane,17-Mar-20,"13, 14, 15, 16, 17"
-B10009,Royal Brunei Airlines,Brunei,Brisbane,16-Mar-20,"33, 34, 35, 36, 37"
-BA15,British Airways,Singapore,Sydney,16-Mar-20,Further information pending
-D7200,Air Asia,Kuala Lumpur,Gold Coast,16-Mar-20,Further information pending
-DL41,Delta Airlines,Los Angeles,Sydney,16-Mar-20,"53, 54, 55, 56, 57"
-EK052,Emirates,Dubai,Brisbane,16-Mar-20,"55,56,57,58,59"
-EK412,Emirates,Dubai,Sydney,16-Mar-20,Further information pending
-EK434,Emirates,Madrid,Brisbane,16-Mar-20,Further information pending
-EY450,Etihad,Abu Dhabi,Sydney,16-Mar-20,Further information pending
-EY654,Etihad,Cairo,Abu Dahbi,16-Mar-20,Further information pending
-FQ235,Singapore Airlines,London,Brisbane,16-Mar-20,Further information pending
-HA443,Hawaii Airlines,Hawaii,Brisbane,16-Mar-20,Further information pending
-MZ135,Air New Zealand,Auckland,Brisbane,16-Mar-20,"24,25,26,27,28"
-QF2,Qantas,London,Singapore,16-Mar-20,Further information pending
-QF2326,Qantas,Brisbane,Bundaberg,16-Mar-20,Further information pending
-QF52,Qantas,Singapore,Brisbane,16-Mar-20,Further information pending
-QF520,Qantas,Sydney,Brisbane,16-Mar-20,"5,6,7,8,9, 10,11,12,13,14, 23, 24, 25, 26, 27, 28, 29,"
-QF62,Qantas,Tokyo,Brisbane,16-Mar-20,"27,28,29,30,31"
-SQ235,Singapore Airlines,Singapore,Brisbane,16-Mar-20,"18,19,20,21,22"
-VA931,Virgin Airlines,Sydney,Brisbane,16-Mar-20,"24, 25, 26, 27, 28, 29"
-VA931,Virgin Airlines,Sydney,Brisbane,16-Mar-20,"19, 20, 21, 22, 23"
-VA939,Virgin Airlines,Sydney,Brisbane,16-Mar-20,Further information pending
+VA1628,Virgin Australia,Uluru,Sydney,17-Mar-20,"13, 14, 15, 16, 17"
+VA977,Virgin Australia,Sydney,Brisbane,17-Mar-20,"13, 14, 15, 16, 17"
+""
