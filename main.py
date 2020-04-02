@@ -222,6 +222,10 @@ class Scraper:
             if(len(flight_path) == 3):
                 origin = f'{flight_path[0]} (via {flight_path[1]})'
                 destination = f'{flight_path[2]}'
+            elif 'to' in row[2]:
+                flight_path = row[2].split(' to ')
+                origin = f'{flight_path[0]}'
+                destination = f'{flight_path[1]}'
             else:
                 origin = f'{flight_path[0]}'
                 destination = f'{flight_path[1]}'
