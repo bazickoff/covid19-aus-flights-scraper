@@ -11,14 +11,16 @@ Qantas,QF652,Perth,Brisbane,Thu 26 March 2020,Thu 09 April 2020,,QLD
 Qantas,QF520,Sydney,Brisbane,Thu 26 March 2020,Thu 09 April 2020,,QLD
 Qantas,QF2,London,Darwin,Thu 26 March 2020,Thu 09 April 2020,,NT
 Qantas,QF2229,Sydney,Wagga,Wed 25 March 2020,Wed 08 April 2020,"10, 11, 12, 13, 14",NSW
-Qantas,QF566,Perth,Sydney,Wed 25 March 2020,Wed 08 April 2020,"27, 28, 29, 30, 3134, 35, 36, 37",NSW
+Qantas,QF566,Perth,Sydney,Wed 25 March 2020,Wed 08 April 2020,"26, 27, 28, 29, 30, 3134, 35, 36, 37",NSW
 Virgin,VA691,Melbourne,Perth,Wed 25 March 2020,Wed 08 April 2020,"16, 17, 18, 19, 20",WA
 Virgin Australia,VA1141,Sydney,Ballina,Wed 25 March 2020,Wed 08 April 2020,,QLD
 Qantas,QF508,Sydney,Brisbane,Wed 25 March 2020,Wed 08 April 2020,,QLD
 Qantas,QF530,Sydney,Brisbane,Wed 25 March 2020,Wed 08 April 2020,,QLD
 Qantas,QF1792,Brisbane,Townsville,Wed 25 March 2020,Wed 08 April 2020,,QLD
 Qantas,QF838,Melbourne,Darwin,Wed 25 March 2020,Wed 08 April 2020,,NT
+Jetstar,JQ526,Melbourne,Sydney,Tue 24 March 2020,Tue 07 April 2020,"1, 2, 3, 4, 5",NSW
 Qantas,QF408,Melbourne,Sydney,Tue 24 March 2020,Tue 07 April 2020,"1, 2, 3, 4",NSW
+Virgin,VA962,Brisbane,Sydney,Tue 24 March 2020,Tue 07 April 2020,"26, 27, 28, 29, 30",NSW
 Qantas,QF675,Melbourne,Adelaide,Tue 24 March 2020,Tue 07 April 2020,,SA
 Emirates,EK434,Dubai,Brisbane,Tue 24 March 2020,Tue 07 April 2020,,QLD
 Virgin Australia,VA733,Melbourne,Gold Coast,Tue 24 March 2020,Tue 07 April 2020,,QLD
@@ -30,7 +32,7 @@ Qantas,QF2356,Brisbane,Rockhampton,Tue 24 March 2020,Tue 07 April 2020,,QLD
 Qatar,QR906,Doha (via Sydney),Canberra,Tue 24 March 2020,Tue 07 April 2020,"17, 18, 19, 20, 21",ACT
 Jetstar,JQ604,Sydney,Avalon,Mon 23 March 2020,Mon 06 April 2020,TBC,NSW
 Qantas,QF545,Brisbane,Sydney,Mon 23 March 2020,Mon 06 April 2020,"19, 20, 21, 22, 23",NSW
-Qantas,QF414,Melbourne,Sydney,Mon 23 March 2020,Mon 06 April 2020,"15, 16, 17, 18, 19, 20, 27, 28, 29, 30, 31",NSW
+Qantas,QF414,Melbourne,Sydney,Mon 23 March 2020,Mon 06 April 2020,"15, 16, 17, 18, 19, 2027, 28, 29, 30, 31",NSW
 Virgin,VA935,Sydney,Brisbane,Mon 23 March 2020,Mon 06 April 2020,TBC,NSW
 Qantas,QF741,Sydney,Adelaide,Mon 23 March 2020,Mon 06 April 2020,,SA
 QANTAS,QF581,Sydney,Perth,Mon 23 March 2020,Mon 06 April 2020,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10",WA
@@ -85,6 +87,7 @@ Singapore Airlines,SQ231,Singapore,Sydney,Sun 22 March 2020,Sun 05 April 2020,"3
 Virgin Australia,VA1226,Brisbane,Canberra,Sun 22 March 2020,Sun 05 April 2020,"1,2,3,4",ACT
 Rex,ZL166,Sydney,Orange,Sat 21 March 2020,Sat 04 April 2020,"6, 7, 8, 9, 10",NSW
 Rex,ZL463,Sydney,Narrandera,Sat 21 March 2020,Sat 04 April 2020,"7, 8, 9, 10, 11",NSW
+Qantas,QF575,Sydney,Perth,Sat 21 March 2020,Sat 04 April 2020,"26, 27, 28, 29, 30",NSW
 Qantas,QF756,Adelai​de,Sydney,Sat 21 March 2020,Sat 04 April 2020,"23, 24, 25, 26, 27",NSW
 Tiger,TT352,Sydney,Brisbane,Sat 21 March 2020,Sat 04 April 2020,"11, 12, 13, 14, 15",NSW
 Virgin,VA570,Perth,Sydney,Sat 21 March 2020,Sat 04 April 2020,"6, 7, 8, 9, 10",NSW
@@ -113,7 +116,7 @@ Qantas,QF556,Sydney,Brisbane,Fri 20 March 2020,Fri 03 April 2020,"11, 12, 13, 14
 Qantas,QF2213,Sydney,Albury,Fri 20 March 2020,Fri 03 April 2020,"8, 9, 10, 11, 12",NSW
 Qantas,QF2046,Sydney,Dubbo,Fri 20 March 2020,Fri 03 April 2020,"12, 13, 14, 15, 16",NSW
 Qantas,QF2229,Sydney,Wagga,Fri 20 March 2020,Fri 03 April 2020,"13, 14, 15, 16, 17",NSW
-Virgin,VA917,Sydney,Brisbane,Fri 20 March 2020,Fri 03 April 2020,"15, 16, 17, 18, 19, 20, 21, 22, 23 24",NSW
+Virgin,VA917,Sydney,Brisbane,Fri 20 March 2020,Fri 03 April 2020,"15, 16, 17, 18, 19, 20, 21, 22, 23, 24",NSW
 Qantas,QF761,Sydney,Adelaide,Fri 20 March 2020,Fri 03 April 2020,,SA
 Jetstar,JQ563,Brisbane,Melbourne,Fri 20 March 2020,Fri 03 April 2020,,SA
 Qantas,QF741,Sydney,Adelaide,Fri 20 March 2020,Fri 03 April 2020,,SA
@@ -142,14 +145,6 @@ Virgin,VA1351,Sydney,Darwin,Fri 20 March 2020,Fri 03 April 2020,,NT
 Jetstar,JQ82,Denpasar,Darwin,Fri 20 March 2020,Fri 03 April 2020,,NT
 British Airways,BA15,London (via Singapore),Sydney,Fri 20 March 2020,Fri 03 April 2020,"47,48,49,50,51",ACT
 Qantas,QF1467,Sydney,Canberra,Fri 20 March 2020,Fri 03 April 2020,"10,11,12,13,14",ACT
-Qantas,QF412,Melbourne,Sydney,Thu 19 March 2020,Thu 02 April 2020,"22, 23, 24, 25, 26, 27",NSW
-Qantas,QF525,Brisbane,Sydney,Thu 19 March 2020,Thu 02 April 2020,"9, 10, 11, 12, 13, 14",NSW
-Qantas,QF577,Sydney,Perth,Thu 19 March 2020,Thu 02 April 2020,TBC,NSW
-Qantas,QF2004,Sydney,Tamworth,Thu 19 March 2020,Thu 02 April 2020,"13, 14, 15, 16, 17",NSW
-Qantas,QF2221,Sydney,Wagga,Thu 19 March 2020,Thu 02 April 2020,"6, 7, 8, 9, 10",NSW
-Rex,ZL717,Sydney (via Cooma),Merimbula,Thu 19 March 2020,Thu 02 April 2020,"6, 7, 8, 9, 10",NSW
-Virgin,VA1178,Sydney,Albury,Thu 19 March 2020,Thu 02 April 2020,"10, 11, 12, 13, 14",NSW
-Virgin,VA943,Sydney,Brisbane,Thu 19 March 2020,Thu 02 April 2020,"4, 5, 6, 7, 8",NSW
 Virgin Australia,VA444,Sydney,Adelaide,Thu 19 March 2020,Thu 02 April 2020,,SA
 Qantas,QF759,Sydney,Adelaide,Thu 19 March 2020,Thu 02 April 2020,,SA
 Jetstar,JQ768,Sydney,Adelaide,Thu 19 March 2020,Thu 02 April 2020,,SA
