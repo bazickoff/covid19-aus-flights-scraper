@@ -2,7 +2,6 @@ airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_
 Qatar,QR990,Doha,Perth,Mon 30 March 2020,Mon 13 April 2020,"17, 18, 19, 20, 21",WA
 Qatar,QR990,Doha,Perth,Sat 28 March 2020,Sat 11 April 2020,"80, 81, 82, 83, 84",WA
 Qantas,QF528,Sydney,Brisbane,Sat 28 March 2020,Sat 11 April 2020,,QLD
-Qantas,QF528,Sydney,Brisbane,Sat 28 March 2020,Sat 11 April 2020,,QLD
 Qantas,QF1580,Sydney,Sunshine Coast (Maroochydore),Fri 27 March 2020,Fri 10 April 2020,All seats,NSW
 Qantas,QF1581,Sunshine Coast(Maroochydore),Sydney,Fri 27 March 2020,Fri 10 April 2020,All seats,NSW
 QANTAS,QF475,Melbourne,Perth,Fri 27 March 2020,Fri 10 April 2020,"1, 2, 3, 4",WA
