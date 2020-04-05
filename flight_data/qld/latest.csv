@@ -1,4 +1,6 @@
 Flight Number,Airline,Origin,Destination,Date of arrival,Close Contact Rows
+QF654,Qantas,Perth,Brisbane,27-Mar-20,"4,5,6,7,8"
+QF520,Qantas,Sydney,Brisbane,26-Mar-20,"4,5,6,7,8,9,10,11,12"
 AC35,Air Canada,Vancouver,Brisbane,22-Mar-20,"25,26,27,28,29"
 QF540,Qantas,Sydney,Brisbane,26-Mar-20,"3,4,5,6,7"
 QF516,Qantas,Sydney,Brisbane,27-Mar-20,"7,8,9,10,11"
@@ -7,7 +9,7 @@ QF528,Qantas,Sydney,Brisbane,28-Mar-20,"20,21,22,23,24,25,26,27,28"
 QF512,Qantas,Sydney,Brisbane,27-Mar-20,"13,14,15,16,17"
 QF604,Qantas,Melbourne,Brisbane,27-Mar-20,Further information pending
 QF654,Qantas,Perth,Brisbane,27-Mar-20,"12,13,14,15,16"
-QF864,Qantas,Sydney,Gold Coast,26-Mar-20,"6,7,8,9,10"
+QF864,Qantas,Sydney,Gold Coast,23-Mar-20,"6,7,8,9,10"
 QF652,Qantas,Perth,Brisbane,26-Mar-20,Further information pending
 QF520,Qantas,Sydney,Brisbane,26-Mar-20,"15,16,17,18,19"
 VA1141,Virgin Australia,Sydney,Ballina,25-Mar-20,"14,15,16,17,18"
@@ -43,15 +45,3 @@ VA935,Virgin Australia,Sydney,Brisbane,22-Mar-20,"7,8,9,10,11"
 QF556,Qantas,Sydney,Brisbane,22-Mar-20,"10,11,12,13,14,15"
 QF702,Qantas,Melbourne,Cairns,22-Mar-20,"1,2,3,17,18,19,20,21"
 EK5702,Emirates,Melbourne,Cairns,22-Mar-20,"1,2,3,17,18,19,20,21"
-QF970,Qantas,Brisbane,Townsville,21-Mar-20,"15,16,17,18,19"
-EK412,Emirates,Dubai,Sydney,21-Mar-20,"56, 57, 58, 59,60"
-EK434,Emirates,Dubai,Brisbane,21-Mar-20,"70,71,72,73,74"
-EK434,Emirates,Dubai,Brisbane,21-Mar-20,"47,48,49,50,51"
-EY484,Etihad,Abu Dhabi,Brisbane,21-Mar-20,Further information pending
-QF970,Qantas,Brisbane,Townsville,21-Mar-20,Further information pending
-QF512,Qantas,Sydney,Brisbane,21-Mar-20,"12, 13, 14, 15, 16"
-QF654,Qantas,Perth,Brisbane,21-Mar-20,"27,28,29,30"
-VA8,Virgin Australia,Los Angeles,Brisbane,21-Mar-20,"14,15,16,17,18"
-VA523,Virgin Australia,Sydney,Gold Coast,21-Mar-20,Further information pending
-VA925,Virgin Australia,Sydney,Brisbane,21-Mar-20,"1,2,3"
-VA1392,Virgin Australia,Brisbane,Adelaide,21-Mar-20,Further information pending
