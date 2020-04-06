@@ -14,9 +14,9 @@ QF2130,Qantas,Melbourne/Canberra,17-Mar,17-Mar,"15,16,17,18,19",19 March
 VA672,Virgin Australia,Sydney/Canberra,17-Mar,17-Mar,"12,13,14,15,16",21 March
 QF816,Qantas,Melbourne/Canberra,17-Mar,17-Mar,,23 March
 VA134,Virgin Australia,Christchurch/Sydney,17-Mar,17-Mar,"23,24,25,26,27",23 March
-VA640,Virgin Australia,Sydney/Canberra,17-Mar,17-Mar,"3,4,5,6,7",23 March
+VA640,Virgin Australia,Sydney/Canberra,18-Mar,18-Mar,"3,4,5,6,7",23 March
 EY450,Etihad,Abu Dhabi/Sydney,17-Mar,18-Mar,"42,43,44,45,46",20 March
-QF8412,Emirates,Dubai/Sydney,17-Mar,18-Mar,"24,25,26,27,28",
+QF8412/EK412,Emirates,Dubai/Sydney,17-Mar,18-Mar,"24,25,26,27,28",
 QF812,Qantas,Melbourne/Canberra,18-Mar,18-Mar,"20,21,22,23,24",
 VA640,Virgin Australia,Sydney/Canberra,18-Mar,18-Mar,"3,4,5,6,7",20 March
 QF1513,Qantas,Sydney/Canberra,18-Mar,18-Mar,,23 March
@@ -28,7 +28,7 @@ SQ288,Singapore Airlines,Singapore/Sydney/Canberra,19-Mar,19-Mar,"30,31,32,33,34
 QF1467,Qantas,Sydney/Canberra,20-Mar,20-Mar,"10,11,12,13,14",
 QF1425,Qantas,Sydney/Canberra,20-Mar,20-Mar,"1,2,3,4,5",
 BA011,British Airways,London/Singapore,20-Mar,21-Mar,"65,66,67,68,69",
-QF8406,Emirates,Dubai/Melbourne,21-Mar,22-Mar,"79,80,81,82,83",
+QF8406/EK406,Emirates,Dubai/Melbourne,21-Mar,22-Mar,"79,80,81,82,83",
 BA015,British Airways,Singapore/Sydney,21-Mar,22-Mar,First class,
 EK412/QF8412,Emirates,Dubai/Melbourne,21-Mar,22-Mar,"76,77,78,79,80",
 VA648,Virgin Australia,Sydney/Canberra,22-Mar,22-Mar,"14,15,16,17,18",
