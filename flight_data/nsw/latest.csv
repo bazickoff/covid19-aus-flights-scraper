@@ -1,4 +1,8 @@
 Flight,Airline,Origin/Destination,Date of departure,Date of arrival,Close contact rows
+QF843,Qantas,Darwin/Sydney,4 April 2020,4 April 2020,All    rows
+QF840,Qantas,Sydney/Darwin,3 April 2020,3 April 2020,All    rows
+QF843,Qantas,Darwin/Sydney,2 April 2020,2 April 2020,All    rows
+QF840,Qantas,Sydney/Darwin,1 April 2020,1 April 2020,All    rows
 ZL472,Rex,Griffith/Sydney,29 March 2020,29 March 2020,"2, 3, 4, 5, 6"
 QF1580,Qantas,Sydney/Sunshine Coast    (Maroochydore),27 March 2020,27 March 2020,All rows
 QF1581,Qantas,Sunshine Coast    (Maroochydore)/Sydney,27 March 2020,27 March 2020,All rows
@@ -6,12 +10,3 @@ QF520,Qantas,Sydney/Brisbane,26 March 2020,26 March 2020,"15, 16, 17, 18, 19"
 QF2229,Qantas,Sydney/Wagga,25 March 2020,25 March 2020,"10, 11, 12, 13, 14"
 QF566,Qantas,Perth/Sydney,25 March 2020,25 March 2020,"26, 27, 28, 29, 30, 3134, 35, 36, 37, 38"
 QF582,Qantas,Perth/Sydney,25 March 2020,25 March 2020,"33, 34, 35, 36, 37"
-JQ526,Jetstar,Melbourne/Sydney,24 March 2020,24 March 2020,"1, 2, 3, 4, 5"
-QF408,Qantas,Melbourne/Sydney,24 March 2020,24 March 2020,"1, 2, 3, 4"
-VA427,Virgin,Adelaide/Sydney,24 March 2020,24 March 2020,"13, 14, 15, 16, 17"
-VA962,Virgin,Brisbane/Sydney,24 March 2020,24 March 2020,"26, 27, 28, 29, 30"
-JQ604,Jetstar,Sydney/Avalon,23 March 2020,23 March 2020,"12, 13, 14, 15, 16"
-JQ606,Jetstar,Melbourne/Sydney,23 March 2020,23 March 2020,"1, 2, 3"
-QF414,Qantas,Melbourne/Sydne​​y,23 March 2020,23 March 2020,"15, 16, 17, 18, 19, 2027, 28, 29, 30, 31"
-QF545,Qantas,Brisbane/Sydney,23 March 2020,23 March 2020,"19, 20, 21, 22, 23"
-VA935,Virgin,Sydney/Brisbane,23 March 2020,23 March 2020,TBC
