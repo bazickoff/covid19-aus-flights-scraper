@@ -1,5 +1,6 @@
 Flight,Airline,Origin/Destination,Date of departure,Date of arrival,Close contact rows,News item
 QR908,Qatar,Doha to Sydney,26-Mar,27-Mar,"28,29,30,31,32",
+EK5493/QF816,Emirates,Melbourne/Canberra,24-Mar,24-Mar,"8,9,10,11,12",
 QR906,Qatar,Doha/Sydney/Canberra,23-Mar,24-Mar,"17, 18, 19, 20, 21",
 NZ883,Air New Zealand,Christchurch/Sydney,23-Mar,23-Mar,"34,35,36,37,38",
 VA1226,Virgin Australia,Brisbane/Canberra,22-Mar,22-Mar,"1,2,3,4",
