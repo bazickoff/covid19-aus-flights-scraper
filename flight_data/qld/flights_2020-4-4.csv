@@ -1,9 +1,12 @@
 Flight Number,Airline,Origin,Destination,Date of arrival,Close Contact Rows
-QF528,Qantas,Sydney,Brisbane,28-Mar-20,"20,21,22,23,24"
-QF528,Qantas,Sydney,Brisbane,28-Mar-20,"24,25,26,27,28"
+AC35,Air Canada,Vancouver,Brisbane,22-Mar-20,"25,26,27,28,29"
+QF540,Qantas,Sydney,Brisbane,26-Mar-20,"3,4,5,6,7"
+QF516,Qantas,Sydney,Brisbane,27-Mar-20,"7,8,9,10,11"
+VA1557,Virgin,Sydney,Hervey Bay,21-Mar-20,"14,15,16,17,18"
+QF528,Qantas,Sydney,Brisbane,28-Mar-20,"20,21,22,23,24,25,26,27,28"
 QF512,Qantas,Sydney,Brisbane,27-Mar-20,"13,14,15,16,17"
 QF604,Qantas,Melbourne,Brisbane,27-Mar-20,Further information pending
-QF654,Qantas,Perth,Brisbane,27-Mar-20,Further information pending
+QF654,Qantas,Perth,Brisbane,27-Mar-20,"12,13,14,15,16"
 QF864,Qantas,Sydney,Gold Coast,26-Mar-20,"6,7,8,9,10"
 QF652,Qantas,Perth,Brisbane,26-Mar-20,Further information pending
 QF520,Qantas,Sydney,Brisbane,26-Mar-20,"15,16,17,18,19"
@@ -52,19 +55,3 @@ VA8,Virgin Australia,Los Angeles,Brisbane,21-Mar-20,"14,15,16,17,18"
 VA523,Virgin Australia,Sydney,Gold Coast,21-Mar-20,Further information pending
 VA925,Virgin Australia,Sydney,Brisbane,21-Mar-20,"1,2,3"
 VA1392,Virgin Australia,Brisbane,Adelaide,21-Mar-20,Further information pending
-QF536,Qantas,Sydney,Gold Coast,20-Mar-20,"9, 10, 11, 12, 13"
-JQ420,Jetstar,Sydney,Gold Coast,20-Mar-20,"23,24,25,26,27"
-EK4,Emirates,London,Dubai,20-Mar-20,Further information pending
-EK434,Emirates,Dubai,Brisbane,20-Mar-20,"47,48,49,50,51"
-QF10,Qantas,Heathrow,Perth,20-Mar-20,Further information pending
-QF16,Qantas,Los Angeles,Brisbane,20-Mar-20,"54,55,56,57,58"
-SQ255,Singapore airlines,Singapore,Brisbane,20-Mar-20,"40,41,42,43,44"
-VA1115,Virgin Australia,Brisbane,Proserpine,20-Mar-20,Further information pending
-VA1393,Virgin Australia,Adelaide,Brisbane,20-Mar-20,Further information pending
-VA1555,Virgin Australia,Sydney,Hervey Bay,20-Mar-20,Further information pending
-VA353,Virgin Australia,Melbourne,Brisbane,20-Mar-20,"16,17,18,19,20,"
-VA917,Virgin Australia,Sydney,Brisbane,20-Mar-20,Further information pending
-QF1760,Qantas,Brisbane,Cairns,20-Mar-20,"20,21,22,23,24"
-JQ563,Jetstar,Brisbane,Melbourne,20-Mar-20,"10,11,12,13,14"
-QF1763,Qantas,Cairns,Brisbane,20-Mar-20,"2,3,4,5,6"
-VA702,Virgin Australia,Brisbane,Hobart,12-Mar-20,"15,16,17,18,19"

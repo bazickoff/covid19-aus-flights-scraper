@@ -1,13 +1,12 @@
 Flight #,Airline,Origin / Destination,Date of Arrival,Close contact rows,Watch for symptoms dates until
 VA213,Virgin Australia,Melbourne - Adelaide,14/03/2020,"16, 17, 18, 19, 20",28/03/2020
 JQ453,Jetstar,Gold Coast - Adelaide,15/03/2020,"12, 13, 14, 15, 16",29/03/2020
-QF751,Qantas,Sydney - Adelaide,15/03/2020,"18, 19, 20, 21, 22",29/03/2020
+QF751,Qantas,Sydney - Adelaide,15/03/2020,"18, 19, 20, 21, 22, 23, 24, 25, 26",29/03/2020
 EK440,Emirates Airlines,Dubai - Adelaide,15/03/2020,"23, 24, 25, 26, 27",29/03/2020
 VA211,Virgin Australia,Melbourne - Adelaide,16/03/2020,"4, 5, 6, 7, 8",30/03/2020
 QF761,Qantas,Sydney - Adelaide,16/03/20,"5, 6, 7, 8, 9",30/03/2020
 VA213,Virgin Australia,Melbourne - Adelaide,16/03/20,"16, 17, 18, 19, 20",30/03/2020
 QF675,Qantas,Melbourne - Adelaide,16/03/20,"23, 24, 25, 26, 17",30/03/2020
-QF675,Qantas,Melbourne - Adelaide,16/03/2020,**,30/03/2020
 QF692,Qantas,Melbourne - Adelaide,16/03/2020,"1, 2, 3, 4, 5",30/03/2020
 JQ766,Jetstar,Sydney - Adelaide,16/03/2020,"6, 7, 8, 9, 10",30/03/2020
 VA437,Virgin Australia,Adelaide - Sydney,17/03/2020,"12, 13, 14, 15, 16",31/03/2020
@@ -25,20 +24,20 @@ VA428,Virgin Australia,Sydney - Adelaide,19/03/2020,All,02/04/2020
 JQ764,Jetstar,Sydney - Adelaide,19/03/2020,"1, 2, 3, 18, 19, 20, 21, 22",02/04/2020
 VA436,Virgin Australia,Sydney - Adelaide,19/03/2020,"1, 2, 3, 4, 5",02/04/2020
 VA418,Virgin Australia,Sydney - Adelaide,19/03/2020,"2, 3, 4, 5, 6, 11, 12, 13, 14, 15, 27, 28, 29, 30, 31",02/04/2020
-VA249,Virgin Australia,Melbourne - Adelaide,19/03/2020,"13, 14, 15, 16, 17",02/04/2020
+VA249,Virgin Australia,Melbourne - Adelaide,19/03/2020,"17, 18, 19, 20, 21",02/04/2020
 VA838,Virgin Australia,Sydney - Melbourne,19/03/2020,"23, 24, 25, 26, 27",02/04/2020
 QF683,Qantas,Melbourne - Adelaide,19/03/2020,"21, 22, 23, 24, 25, 26",02/04/2020
 QF761,Qantas,Sydney - Adelaide,20/03/2020,"19, 20, 21, 22, 23",03/04/2020
-QF741,Qantas,Sydney - Adelaide,20/03/2020,"21, 22, 23, 24, 25",03/04/2020
 JQ563,Jetstar,Brisbane - Melbourne,20/03/2020,"10, 11, 12, 13, 14",03/04/2020
 QF741,Qantas,Sydney - Adelaide,20/03/2020,"2, 3, 4, 5, 6, 7",03/04/2020
 VA444,Virgin Australia,Sydney - Adelaide,20/03/2020,"21, 22, 23, 24, 25",03/04/2020
 VA428,Virgin Australia,Sydney - Adelaide,20/03/2020,"15, 16, 17, 18, 19",03/04/2020
 QF761,Qantas,Sydney - Adelaide,21/03/2020,"11, 12, 13, 14, 15",04/04/2020
 VA1392,Virgin Australia,Brisbane - Adelaide,21/03/2020,"13, 14, 15, 16, 17",04/04/2020
-TT461,Tiger,Melbourne - Adelaide,22/03/2020,**,05/04/2020
 QF683,Qantas,Melbourne - Adelaide,22/03/2020,"14, 15, 16, 17, 18",05/04/2020
+TT461,Tiger,Melbourne - Adelaide,22/03/2020,"29, 30, 31",05/04/2020
 QF739,Qantas,Sydney - Adelaide,22/03/2020,"14, 15, 16, 17, 18, 19",05/04/2020
 VA227,Virgin Australia,Melbourne - Adelaide,22/03/2020,"8, 9, 10, 11, 12",05/04/2020
+QF741,Qantas,Sydney - Adelaide,22/03/2020,"14, 15, 16, 17, 18",05/04/2020
 QF741,Qantas,Sydney - Adelaide,23/03/2020,"1, 2, 3, 4",06/04/2020
 QF675,Qantas,Melbourne - Adelaide,24/03/2020,"13, 14, 15, 16, 17",07/04/2020

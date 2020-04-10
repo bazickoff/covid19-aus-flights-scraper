@@ -3,10 +3,9 @@ Qantas,QF843,Darwin,Sydney,Sat 04 April 2020,Sat 18 April 2020,All    rows,NSW
 Qantas,QF840,Sydney,Darwin,Fri 03 April 2020,Fri 17 April 2020,All    rows,NSW
 Qantas,QF843,Darwin,Sydney,Thu 02 April 2020,Thu 16 April 2020,All    rows,NSW
 Qantas,QF840,Sydney,Darwin,Wed 01 April 2020,Wed 15 April 2020,All    rows,NSW
-Qantas,QF588,Coolongatta,Sydney,Mon 30 March 2020,Mon 13 April 2020,All rows,NSW
 Qatar,QR990,Doha,Perth,Mon 30 March 2020,Mon 13 April 2020,"17, 18, 19, 20, 21",WA
 Rex,ZL472,Griffith,Sydney,Sun 29 March 2020,Sun 12 April 2020,"2, 3, 4, 5, 6",NSW
-Qatar,QR990,Doha,Perth,Sun 29 March 2020,Sun 12 April 2020,"20, 21, 22, 23, 24 and 26, 27, 28, 29, 30 and 32, 33, 34, 35, 36",WA
+Qatar,QR990,Doha,Perth,Sun 29 March 2020,Sun 12 April 2020,"20, 21, 22, 23, 24",WA
 Qatar,QR990,Doha,Perth,Sat 28 March 2020,Sat 11 April 2020,"80, 81, 82, 83, 84",WA
 Qantas,QF528,Sydney,Brisbane,Sat 28 March 2020,Sat 11 April 2020,,QLD
 Qantas,QF840,Sydney,Darwin,Sat 28 March 2020,Sat 11 April 2020,,NT
@@ -19,14 +18,23 @@ Qantas,QF512,Sydney,Brisbane,Fri 27 March 2020,Fri 10 April 2020,,QLD
 Qantas,QF654,Perth,Brisbane,Fri 27 March 2020,Fri 10 April 2020,,QLD
 Qantas,QF840,Sydney,Darwin,Fri 27 March 2020,Fri 10 April 2020,,NT
 Qatar,QR908,Doha,Sydney,Fri 27 March 2020,Fri 10 April 2020,"28,29,30,31,32",ACT
+Qantas,QF520,Sydney,Brisbane,Thu 26 March 2020,Thu 09 April 2020,"15, 16, 17, 18, 19",NSW
 QANTAS,QF10,London,Perth,Thu 26 March 2020,Thu 09 April 2020,"51, 52, 53, 54, 55",WA
 Qantas,QF540,Sydney,Brisbane,Thu 26 March 2020,Thu 09 April 2020,,QLD
 Qantas,QF604,Melbourne,Brisbane,Thu 26 March 2020,Thu 09 April 2020,,QLD
 Qantas,QF520,Sydney,Brisbane,Thu 26 March 2020,Thu 09 April 2020,,QLD
 Qantas,QF516,Sydney,Brisbane,Thu 26 March 2020,Thu 09 April 2020,,QLD
 Qantas,QF2,London,Darwin,Thu 26 March 2020,Thu 09 April 2020,,NT
+Qantas,QF2229,Sydney,Wagga,Wed 25 March 2020,Wed 08 April 2020,"10, 11, 12, 13, 14",NSW
+Qantas,QF566,Perth,Sydney,Wed 25 March 2020,Wed 08 April 2020,"26, 27, 28, 29, 30, 3134, 35, 36, 37, 38",NSW
+Qantas,QF582,Perth,Sydney,Wed 25 March 2020,Wed 08 April 2020,"33, 34, 35, 36, 37",NSW
 Emirates,EK0420,Dubai,Perth,Wed 25 March 2020,Wed 08 April 2020,"23, 24, 25, 26, 27",WA
 Virgin,VA691,Melbourne,Perth,Wed 25 March 2020,Wed 08 April 2020,"16, 17, 18, 19, 20",WA
+Qantas,QF652,Perth,Brisbane,Wed 25 March 2020,Wed 08 April 2020,,QLD
+Qantas,QF508,Sydney,Brisbane,Wed 25 March 2020,Wed 08 April 2020,,QLD
+Qantas,QF530,Sydney,Brisbane,Wed 25 March 2020,Wed 08 April 2020,,QLD
+Qantas,QF1792,Brisbane,Townsville,Wed 25 March 2020,Wed 08 April 2020,,QLD
+Qantas,QF594,Perth,Brisbane,Wed 25 March 2020,Wed 08 April 2020,,QLD
 Qantas,QF838,Melbourne,Darwin,Wed 25 March 2020,Wed 08 April 2020,,NT
 Qantas,QF675,Melbourne,Adelaide,Tue 24 March 2020,Tue 07 April 2020,,SA
 Air New Zealand,NZ175,Auckland,Perth,Tue 24 March 2020,Tue 07 April 2020,"27, 28, 29, 30, 31",WA
@@ -44,7 +52,6 @@ Virgin Australia,VA227,Melbourne,Adelaide,Sun 22 March 2020,Sun 05 April 2020,,S
 QANTAS,QF583,Sydney,Perth,Sun 22 March 2020,Sun 05 April 2020,"1, 2, 3, 4, 5",WA
 Virgin,VA559,Sydney,Perth,Sun 22 March 2020,Sun 05 April 2020,"20,21,22,23,24 and 28, 29, 30, 31, 32",WA
 Virgin,VA1637,Perth,Kununurra,Sun 22 March 2020,Sun 05 April 2020,"9, 10, 11, 12, 13",WA
-QANTAS,QF1606,Perth,Kalgoorlie,Sun 22 March 2020,Sun 05 April 2020,"15, 16, 17, 18, 19",WA
 Qantas,QF796,Melbourne,Alice Springs,Sun 22 March 2020,Sun 05 April 2020,,NT
 Qantas,QF2974,Alice Springs,Darwin,Sun 22 March 2020,Sun 05 April 2020,,NT
 Jetstar,JQ664,Melbourne,Yulara,Sun 22 March 2020,Sun 05 April 2020,,NT
@@ -74,7 +81,6 @@ Virgin,VA559,Sydney,Perth,Fri 20 March 2020,Fri 03 April 2020,"15, 16, 17, 18, 1
 Emirates,EK0420,Dubai,Perth,Fri 20 March 2020,Fri 03 April 2020,"13, 14, 15, 16, 17",WA
 REX airlines,ZL2125,Perth,Albany,Fri 20 March 2020,Fri 03 April 2020,"3, 4, 5, 6, 7",WA
 Virgin,VA559,Sydney,Perth,Fri 20 March 2020,Fri 03 April 2020,"20, 21, 22, 23, 24",WA
-Swiss International Air Lines,LX9042,Singapore,Perth,Fri 20 March 2020,Fri 03 April 2020,"41, 42, 43, 44, 45 and 52, 53, 54, 55, 56",WA
 Qantas,QF1467,Sydney,Canberra,Fri 20 March 2020,Fri 03 April 2020,"10,11,12,13,14",ACT
 Qantas,QF1425,Sydney,Canberra,Fri 20 March 2020,Fri 03 April 2020,"1,2,3,4,5",ACT
 British Airways,BA15,London (via Singapore),Sydney,Fri 20 March 2020,Fri 03 April 2020,"47,48,49,50,51",ACT
@@ -136,7 +142,6 @@ QANTAS,QF769,Melbourne,Perth,Tue 17 March 2020,Tue 31 March 2020,"53, 54, 55, 56
 Emirates,EK0420,Dubai,Perth,Tue 17 March 2020,Tue 31 March 2020,"71, 72, 73, 74, 75",WA
 QANTAS,QF769,Melbourne,Perth,Tue 17 March 2020,Tue 31 March 2020,"53, 54, 55, 56, 57",WA
 QANTAS,QF10,London,Perth,Tue 17 March 2020,Tue 31 March 2020,"55, 56, 57, 58, 59",WA
-Virgin,VA769,Melbourne,Perth,Tue 17 March 2020,Tue 31 March 2020,"23, 24, 25, 26, 27",WA
 Qantas,QF816,Melbourne,Canberra,Tue 17 March 2020,Tue 31 March 2020,,ACT
 Virgin Australia,VA672,Sydney,Canberra,Tue 17 March 2020,Tue 31 March 2020,"12,13,14,15,16",ACT
 Qantas,QF2130,Melbourne,Canberra,Tue 17 March 2020,Tue 31 March 2020,"15,16,17,18,19",ACT
