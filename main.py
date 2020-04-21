@@ -63,6 +63,8 @@ class Scraper:
         table = self.get_html(target_url).find(
             'table', class_="au-table au-table--striped")
         rows = []
+        if(table == None or len(table) < 0):
+            return None
         header = table.find_all('thead')[0]
         headerow = [td.get_text(strip=True)
                     for td in header.find_all('th')]  # header row
@@ -199,15 +201,16 @@ class Scraper:
                               'close_contact_rows': close_contact_rows, 'reporting_state': 'QLD', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
                     data.append(flight)
 
-        for row in nt_flight_data[1:]:
-            arrival_date = datetime.strptime(row[0], '%d %B %Y')
-            symptoms_onset_date = arrival_date + timedelta(days=14)
-            [flight_number, airline] = row[1].split(' - ')
-            [origin, destination] = row[2].split(' to ')
+        if nt_flight_data:
+            for row in nt_flight_data[1:]:
+                arrival_date = datetime.strptime(row[0], '%d %B %Y')
+                symptoms_onset_date = arrival_date + timedelta(days=14)
+                [flight_number, airline] = row[1].split(' - ')
+                [origin, destination] = row[2].split(' to ')
 
-            flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
-                      'close_contact_rows': close_contact_rows, 'reporting_state': 'NT', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
-            data.append(flight)
+                flight = {'airline': airline, 'flight_number': flight_number, 'origin': origin, 'destination': destination, 'arrival_date': arrival_date,
+                          'close_contact_rows': close_contact_rows, 'reporting_state': 'NT', 'symptoms_onset_date': symptoms_onset_date.strftime('%a %d %B %Y')}
+                data.append(flight)
 
         for row in act_flight_data[1:]:
             date = row[4].split('-')
@@ -304,12 +307,13 @@ if __name__ == "__main__":
             writer = csv.writer(file)
             writer.writerows(qld_flight_data)
 
-    with open(f'./flight_data/nt/flights_{today}.csv', 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerows(nt_flight_data)
-    with open(f'./flight_data/nt/latest.csv', 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerows(nt_flight_data)
+    if nt_flight_data:
+        with open(f'./flight_data/nt/flights_{today}.csv', 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerows(nt_flight_data)
+        with open(f'./flight_data/nt/latest.csv', 'w', newline='') as file:
+            writer = csv.writer(file)
+            writer.writerows(nt_flight_data)
 
     with open(f'./flight_data/act/flights_{today}.csv', 'w', newline='') as file:
         writer = csv.writer(file)
