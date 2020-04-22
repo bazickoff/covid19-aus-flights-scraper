@@ -1,0 +1,6 @@
+Flight,Airline,Origin/Destination,Date of departure,Date of arrival,Close contact rows
+QF470,Qantas,Melbourne/Sydney,9 April 2020,9 April 2020,7-11
+QF843,Qantas,Darwin/Sydney,4 April 2020,4 April 2020,All rows
+QF840,Qantas,Sydney/Darwin,3 April 2020,3 April 2020,All rows
+QF843,Qantas,Darwin/Sydney,2 April 2020,2 April 2020,All rows
+QF840,Qantas,Sydney/Darwin,1 April 2020,1 April 2020,All rows
