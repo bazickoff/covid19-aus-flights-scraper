@@ -1,4 +1,5 @@
 airline,flight_number,origin,destination,arrival_date,symptoms_onset_date,close_contact_rows,reporting_state
+Qantas,QF470,Melbourne,Sydney,Thu 09 April 2020,Thu 23 April 2020,7-11,NSW
 Qantas,QF843,Darwin,Sydney,Sat 04 April 2020,Sat 18 April 2020,All rows,NSW
 Qantas,QF840,Sydney,Darwin,Fri 03 April 2020,Fri 17 April 2020,All rows,NSW
 Qantas,QF843,Darwin,Sydney,Thu 02 April 2020,Thu 16 April 2020,All rows,NSW
