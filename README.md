@@ -45,7 +45,7 @@ As of 24th March 2020, the Queensland Department of Health have stop reporting c
 
 # API Layer
 
-The API layer will be available soon!
+The API layer documentation can be found at [covid19-aus-flights/wiki/API](https://github.com/AusCovid19/covid19-aus-flights/wiki/API)
 
 # Development
 
